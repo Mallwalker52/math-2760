@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-title" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Chapter Title</title>
+<chapter xml:id="ch-chapter-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chapter 1</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> This is a test chapter. </p>
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-section-name.ptx" />
+  <xi:include href="sec-section-1-1.ptx" />
 
 </chapter>

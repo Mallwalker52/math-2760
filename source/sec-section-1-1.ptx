@@ -10,28 +10,24 @@
   <p>
   Here is the quadratic formula:
   </p>
+  <p>
   <me>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</me>
+  </p>
 
   <figure xml:id="venn-sets">
-  <image source="images/venn-diagram.png"/>
-  <caption>A Venn diagram of two overlapping sets A and B.</caption>
+    <caption>A Venn diagram of two overlapping sets A and B.</caption>
+    <image source="images/venn-diagram.png"/>
   </figure>
 
   <p>See <xref ref="venn-sets"/> for a visualization of the overlap.</p>
 
-<iframe src="https://www.desmos.com/calculator/gaootz1r0s?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-<section xml:id="desmos-demo">
-  <title>Example of Level Curves</title>
+  <p>Example of Level Curves</p>
 
   <p>
     Below is an interactive Desmos graph of level curves.
   </p>
+ 
 
-  <interactive source="https://www.desmos.com/calculator/gaootz1r0s"
-              width=”500"
-              height="500"
-              title="Level Curves"/>
-</section>
 
 </section>
