@@ -10,13 +10,22 @@ var ptx_lunr_docs = [
   "body": "  "
 },
 {
-  "id": "sec-section-name",
+  "id": "sec-section-1-1",
   "level": "1",
-  "url": "sec-section-name.html",
+  "url": "sec-section-1-1.html",
   "type": "Section",
   "number": "1.1",
-  "title": "Section Title",
-  "body": " Section Title  Text of section.  "
+  "title": "Section 1.1",
+  "body": " Section 1.1  Text of section.  The equation is famous.  Here is the quadratic formula:      A Venn diagram of two overlapping sets A and B.    See for a visualization of the overlap.  Example of Level Curves  Below is an interactive Desmos graph of level curves.  "
+},
+{
+  "id": "venn-sets",
+  "level": "2",
+  "url": "sec-section-1-1.html#venn-sets",
+  "type": "Figure",
+  "number": "1.1.1",
+  "title": "",
+  "body": " A Venn diagram of two overlapping sets A and B.   "
 },
 {
   "id": "backmatter-2",
