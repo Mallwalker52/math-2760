@@ -31,10 +31,5 @@
   <!-- Specify the default type of cross reference: -->
   <!-- <cross-references text="type-global" /> -->
 
-<images>
-  <archive>images.zip</archive>
-</images>
-
-
 
 </docinfo>

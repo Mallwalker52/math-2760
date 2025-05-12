@@ -7,6 +7,12 @@
     <p> This is a test chapter. </p>
   </introduction>
 
+  <figure xml:id="test-image-direct">
+  <caption>Test image directly in chapter.</caption>
+  <image source="images/venn-diagram.png"/>
+</figure>
+
+
   <!-- include sections -->
   <xi:include href="sec-section-1-1.ptx" />
 
