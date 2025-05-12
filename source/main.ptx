@@ -18,5 +18,18 @@
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
 
+    <chapter xml:id="img-test">
+  <title>Image Test Chapter</title>
+
+  <section xml:id="img-test-sec">
+    <title>Test Image Section</title>
+
+    <figure xml:id="venn-direct">
+      <caption>Test image directly in main.ptx</caption>
+      <image source="images/venn-diagram.png"/>
+    </figure>
+  </section>
+</chapter>
+
   </book>
 </pretext>
