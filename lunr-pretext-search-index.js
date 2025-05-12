@@ -35,6 +35,24 @@ var ptx_lunr_docs = [
   "number": "",
   "title": "Colophon",
   "body": " This book was authored in PreTeXt .  "
+},
+{
+  "id": "img-test-sec",
+  "level": "1",
+  "url": "img-test-sec.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Test Image Section",
+  "body": " Test Image Section   Test image directly in main.ptx    "
+},
+{
+  "id": "venn-direct",
+  "level": "2",
+  "url": "img-test-sec.html#venn-direct",
+  "type": "Figure",
+  "number": "2.1.1",
+  "title": "",
+  "body": " Test image directly in main.ptx   "
 }
 ]
 
