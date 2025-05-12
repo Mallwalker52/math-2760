@@ -1,0 +1,31 @@
+INFO    : Staging deployment according to strategy default_target
+INFO    : Since no target was supplied, we will use "web".
+
+INFO    : Staging latest build located in `C:\Users\jonny\my-course-notes\output\web` at `C:\Users\jonny\my-course-notes\output\stage`.
+INFO    : 
+INFO    : Preparing to deploy from active `master` git branch.
+
+INFO    : Changes to project source since last commit detected.
+INFO    : Committing these changes to local Git repository.
+
+ERROR   : Cmd('git') failed due to: exit code(128)
+  cmdline: git commit --message=Update to PreTeXt project source.
+  stderr: 'Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'jonny@ProfSeungChan.(none)')'
+INFO    : 
+----------------------------------------------------
+INFO    : While running pretext, the following errors occurred:
+
+INFO    : (see log messages above or in the 'logs' folder for more information)
+INFO    : ----------------------------------------------------
