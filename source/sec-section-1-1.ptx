@@ -16,7 +16,7 @@
 
   <figure xml:id="venn-sets">
     <caption>A Venn diagram of two overlapping sets A and B.</caption>
-    <image source="images/venn-diagram.png"/>
+    <image source="images/venn-diagram.png" type="project"/>
   </figure>
 
   <p>See <xref ref="venn-sets"/> for a visualization of the overlap.</p>
