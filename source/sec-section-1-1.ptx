@@ -29,6 +29,10 @@
     Still not working.
   </p>
 
+  <video xml:id="desmos-embed" component="iframe" width="500" height="400">
+  <source>https://www.desmos.com/calculator/5nb6ygtpx3</source>
+  <title>Desmos Interactive Graph</title>
+</video>
 
 
 </section>
