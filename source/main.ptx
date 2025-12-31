@@ -6,7 +6,7 @@
 
   <book xml:id="math-2760-notes">
     <title>Math 2760 Notes</title>
-    <subtitle>Fall 2025</subtitle>
+    <subtitle>Winter 2026</subtitle>
 
     <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<section xml:id="sec-section-1-1" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Section 1.1</title>
+<section xml:id="sec-section-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Section 1</title>
 
   <p> Text of section. </p>
 
