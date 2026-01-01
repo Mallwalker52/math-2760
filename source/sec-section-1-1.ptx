@@ -5,6 +5,16 @@
       <subsection xml:id="sec-01-01-notation">
         <title>Describe a Plane Vector Using Correct Notation</title>
         <p>[Placeholder]</p>
+<figure xml:id="figure1">
+  <image source="images/ch01/Figure1.png"/>
+  <caption>
+    Examples of vectors shown with their initial and terminal points.
+  </caption>
+  <description>
+  Figure: Examples of vectors shown with their initial and terminal points.
+  </description>
+</figure>   
+
       </subsection>
       <subsection xml:id="sec-01-02-concept-check">
         <title>Concept Check</title>
