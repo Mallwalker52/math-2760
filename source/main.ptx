@@ -14,7 +14,16 @@
     <!-- Include chapters -->
     <xi:include href="./ch-chapter-1.ptx" />
     <xi:include href="./ch-chapter-2.ptx" />
-
+    <xi:include href="./ch-chapter-3.ptx" />
+    <xi:include href="./ch-chapter-4.ptx" />
+    <xi:include href="./ch-chapter-5.ptx" />
+    <xi:include href="./ch-chapter-6.ptx" />
+    <xi:include href="./ch-chapter-7.ptx" />
+    <xi:include href="./ch-chapter-8.ptx" />
+    <xi:include href="./ch-chapter-9.ptx" />
+    <xi:include href="./ch-chapter-10.ptx" />
+    <xi:include href="./ch-chapter-11.ptx" />
+    <xi:include href="./ch-chapter-appendix.ptx" />
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
