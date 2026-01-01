@@ -199,6 +199,12 @@
               statcounter-project="0123456"
               statcounter-security="0123456"
             /> -->
+
+  <assets>
+    <css source="custom.css"/>
+    <javascript source="custom.js"/>
+  </assets>
+
   </html>
 
   <epub>
@@ -211,5 +217,6 @@
     <!-- <webwork server="https://webwork-ptx.aimath.org" /> -->
     <!-- @course, @coursepassword, @user, and @userpassword can also be set. -->
     <!-- You can also set how tasks are revealed for webwork problems using the @task-reveal attribute on the above-->
+
 
 </publication>

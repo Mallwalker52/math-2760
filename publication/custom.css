@@ -1,0 +1,8 @@
+.ptx-print-link{
+  float: right;
+  font-size: 0.95rem;
+  margin-top: 0.25rem;
+}
+@media print{
+  .ptx-print-link{ display: none !important; }
+}

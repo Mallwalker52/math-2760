@@ -2,8 +2,25 @@
 
     <section xml:id="sec-section-1-1">
       <title>Section 01 - Introduction to Plane Vectors</title>
+
+<objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Describe a plane vector using correct notation.</li>
+    <li>
+      Perform the basic vector operations of scalar multiplication and
+      vector addition and subtraction.
+    </li>
+    <li>Determine whether two vectors are equivalent.</li>
+  </ul>
+</objectives>
+
       <subsection xml:id="sec-01-01-notation">
         <title>Describe a Plane Vector Using Correct Notation</title>
+<p>
+  <url href="#" xml:id="sec-01-01-notation-print">🖨️ Print this subsection</url>
+</p>
+
   <p>
     The term <em>vector</em> is used by scientists to describe a quantity
     (such as displacement, velocity, or force) that has both magnitude
@@ -37,6 +54,8 @@
     Examples of vectors shown with their initial and terminal points.
   </caption>
 </figure>
+
+
       </subsection>
       <subsection xml:id="sec-01-02-concept-check">
         <title>Concept Check</title>
