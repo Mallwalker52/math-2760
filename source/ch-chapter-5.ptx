@@ -28,7 +28,7 @@
 
   <!-- include sections -->
   <xi:include href="sec-section-5-1.ptx" />
-  <xi:include href="sec-section-5-2ptx" />
+  <xi:include href="sec-section-5-2.ptx" />
   <xi:include href="sec-section-5-3.ptx" />
   <xi:include href="sec-section-5-4.ptx" />
   <xi:include href="sec-section-5-5.ptx" />
