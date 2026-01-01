@@ -52,81 +52,290 @@
 </figure>
 
 <p>
-Notice that the vector
-<math>\vec{u} = \overrightarrow{CD}</math>
-has the same length and the same direction as
-<math>\vec{v}</math>,
-even though it is in a different position.
-We say that <math>\vec{u}</math> and <math>\vec{v}</math> are
-<em>equivalent</em> (or <em>equal</em>), and we write
-<math>\vec{u} = \vec{v}</math>.
+Notice that the vector <m>\mathbf{u}=\mathbf{CD}</m> has the same length and the same direction as
+<m>\mathbf{v}</m>, even though it is in a different position.
+We say that <m>\mathbf{u}</m> and <m>\mathbf{v}</m> are <em>equivalent</em> (or <em>equal</em>), and we write
+<m>\mathbf{u}=\mathbf{v}</m>.
 </p>
 
 <p>
-To summarize,
-<math>\overrightarrow{AB} = \overrightarrow{CD}</math>
-because they have the same length and the same direction.
-However,
-<math>\overrightarrow{AB} \neq \overrightarrow{EF}</math>
-and
-<math>\overrightarrow{AB} \neq \overrightarrow{RQ}</math>
+To summarize, <m>\mathbf{AB}=\mathbf{CD}</m> because they have the same length and the same direction.
+However, <m>\mathbf{AB}\neq\mathbf{EF}</m> and <m>\mathbf{AB}\neq\mathbf{RQ}</m>
 because even though they have the same length, they do not have the same direction.
 </p>
 
 <p>
-The <term>zero vector</term>, denoted by
-<math>\vec{0}</math>,
-has length 0.
+The <term>zero vector</term>, denoted by <m>\mathbf{0}</m>, has length <m>0</m>.
 It is the only vector with no specific direction.
 </p>
 
-      </subsection>
-      <subsection xml:id="sec-01-02-concept-check">
-        <title>Concept Check</title>
-        <handout>
-        <example>
+<handout>
+  <title>Concept Check</title>
+
+  <checkpoint knowl="no">
+    <statement>
+      <p>
+        Suppose vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m> have the same magnitude.
+      </p>
+
+      <ol marker="A.">
+        <li>
+          <p>
+            Is that enough to guarantee <m>\mathbf{u}=\mathbf{v}</m>? Why or why not?
+          </p>
+        </li>
+        <li>
+          <p>
+            Suppose <m>\mathbf{u}</m> and <m>\mathbf{v}</m> point in the same direction.
+            Is that enough to guarantee <m>\mathbf{u}=\mathbf{v}</m>?
+          </p>
+        </li>
+        <li>
+          <p>
+            State exactly what conditions must be met for two vectors to be equivalent.
+            Do not draw. Explain in words.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </checkpoint>
+</handout>
+</subsection>
+
+<subsection xml:id="sec-01-03-basic-ops">
+  <title>
+    Perform the Basic Vector Operations of Scalar Multiplication and Vector Addition and Subtraction
+  </title>
+
+  <p>
+    It is possible to multiply a vector by a real number <m>c</m>.
+    In this context, we call the real number <m>c</m> a <em>scalar</em> to distinguish it from a vector.
+    For instance, we want <m>2\mathbf{v}</m> to be the same as the vector
+    <m>\mathbf{v}+\mathbf{v}</m>,
+    which has the same direction as <m>\mathbf{v}</m> but is twice as long.
+  </p>
+
+<definition knowl="no">
+  <title>Scalar Multiplication</title>
+
   <statement>
-    Suppose vectors <math>\vec{u}</math> and <math>\vec{v}</math> have the same magnitude.
+    <p>
+      If <m>c</m> is a scalar and <m>\mathbf{v}</m> is a vector, then the
+      <em>scalar multiple</em> <m>c\mathbf{v}</m> is the vector whose length is
+      <m>|c|</m> times the length of <m>\mathbf{v}</m>.
+    </p>
+
+    <p>
+      The direction of <m>c\mathbf{v}</m> is the same as the direction of
+      <m>\mathbf{v}</m> if <m>c&gt;0</m>, and opposite the direction of
+      <m>\mathbf{v}</m> if <m>c&lt;0</m>.
+      If <m>c=0</m> or <m>\mathbf{v}=\mathbf{0}</m>, then
+      <m>c\mathbf{v}=\mathbf{0}</m>.
+    </p>
   </statement>
+</definition>
 
-  <tasks>
-    <task>
-      Is this enough to guarantee that
-      <math>\vec{u} = \vec{v}</math>?
-      Explain why or why not.
-    </task>
+<p>
+In the figure below, notice the following:
+</p>
 
-    <task>
-      Suppose <math>\vec{u}</math> and <math>\vec{v}</math> point in the same direction.
-      Is this enough to guarantee that
-      <math>\vec{u} = \vec{v}</math>?
-    </task>
+<ul>
+  <li>
+    <p>
+      Real numbers work like scaling factors, which is why we call them
+      <em>scalars</em>.
+    </p>
+  </li>
 
-    <task>
-      State exactly what conditions must be met for two vectors to be equivalent.
-      Do not draw.
-      Explain your answer in words.
-    </task>
-  </tasks>
-</example>
+  <li>
+    <p>
+      Two nonzero vectors are <em>parallel</em> if they are scalar multiples of one another.
+    </p>
+  </li>
 
-        </handout>
-      </subsection>
-      <subsection xml:id="sec-01-03-basic-ops">
-        <title>Perform the Basic Vector Operations of Scalar Multiplication and Vector Addition and Subtraction</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-01-04-scalar-mult-def">
-        <title>Definition of Scalar Multiplication</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-01-05-vector-add-def">
-        <title>Definition of Vector Addition</title>
-        <p>[Placeholder]</p>
+  <li>
+    <p>
+      The vector
+    </p>
+
+    <me>
+      -\mathbf{v} = (-1)\mathbf{v}
+    </me>
+
+    <p>
+      has the same length as <m>\mathbf{v}</m> but points in the opposite direction.
+      We call this vector the <em>negative</em> of <m>\mathbf{v}</m>.
+    </p>
+  </li>
+</ul>
+
+<figure xml:id="figure2">
+  <image source="images/ch01/Figure2.png">
+    <shortdescription>
+      Five arrows show a vector and its scalar multiples, with different lengths in the same direction and in the opposite direction.
+    </shortdescription>
+  </image>
+  <caption>
+    A set of vectors showing <m>\mathbf{v}</m> and its scalar multiples:
+    <m>2\mathbf{v}, \tfrac{1}{2}\mathbf{v}, -\mathbf{v}</m>,
+    and <m>-1.5\mathbf{v}</m>.
+  </caption>
+</figure>
+<p>
+Suppose a particle moves from point <m>A</m> to point <m>B</m>, so its displacement vector is
+<m>\overrightarrow{AB}</m>.
+The particle then changes direction and moves from <m>B</m> to <m>C</m>, with displacement vector
+<m>\overrightarrow{BC}</m>, as shown in the figure below.
+</p>
+<figure xml:id="figure3">
+  <image source="images/ch01/Figure3.png">
+    <shortdescription>
+A diagram showing vectors from point A to point B and from point A to point C, with an additional vector from point C to point B.
+</shortdescription>
+  </image>
+  <caption>
+A diagram showing vectors from <m>A</m> to <m>B</m> and from <m>A</m> to <m>C</m>,
+with an additional vector from <m>C</m> to <m>B</m>.
+</caption>
+</figure>
+<p>
+The combined effect of these displacements is that the particle has moved from <m>A</m> to <m>C</m>.
+The resulting displacement vector <m>\overrightarrow{AC}</m> is called the
+<em>sum</em> of <m>\overrightarrow{AB}</m> and <m>\overrightarrow{BC}</m>, and we write
+</p>
+
+<me>
+\overrightarrow{AC}=\overrightarrow{AB}+\overrightarrow{BC}.
+</me>
+
+<p>
+In general, if we start with vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m>,
+we first move <m>\mathbf{v}</m> so that its tail coincides with the tip of <m>\mathbf{u}</m>,
+and we define the sum of <m>\mathbf{u}</m> and <m>\mathbf{v}</m> as follows.
+</p>
+<definition knowl="no">
+  <title>Vector Addition</title>
+
+  <statement>
+    <p>
+      If <m>\mathbf{u}</m> and <m>\mathbf{v}</m> are vectors positioned so that the initial point
+      of <m>\mathbf{v}</m> is at the terminal point of <m>\mathbf{u}</m>, then the
+      <em>sum</em> <m>\mathbf{u}+\mathbf{v}</m> is the vector from the initial point of
+      <m>\mathbf{u}</m> to the terminal point of <m>\mathbf{v}</m>.
+    </p>
+  </statement>
+</definition>
+<figure xml:id="figure4">
+  <image source="images/ch01/Figure4.png">
+    <shortdescription>
+    A vector diagram showing two vectors placed tip to tail and their resulting sum.
+    </shortdescription>
+  </image>
+  <caption>
+A vector diagram showing <m>\mathbf{u}</m>, <m>\mathbf{v}</m>, and their sum
+<m>\mathbf{u}+\mathbf{v}</m> using the tip-to-tail method.
+  </caption>
+</figure>
+<p>
+In the figure below, we start with the same vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m>
+and draw another copy of <m>\mathbf{v}</m> with the same initial point as <m>\mathbf{u}</m>.
+Completing the parallelogram, we see that
+</p>
+
+<me>
+\mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}.
+</me>
+<figure xml:id="figure5">
+  <image source="images/ch01/Figure5.png">
+    <shortdescription>
+A parallelogram diagram showing two vectors from a common starting point and their combined result.
+</shortdescription>
+  </image>
+<caption>
+A parallelogram diagram showing <m>\mathbf{u}</m>, <m>\mathbf{v}</m>, and their sum
+<m>\mathbf{u}+\mathbf{v}</m> from a common initial point.
+</caption>
+</figure>
       </subsection>
       <subsection xml:id="sec-01-06-applet">
         <title>Using a Vector Addition Applet</title>
-        <p>[Placeholder]</p>
+  <handout>
+  <title>Concept Check</title>
+
+  <checkpoint knowl="no">
+    <statement>
+<p>
+We will use an interactive applet to visualize vector addition.
+</p>
+
+<p>
+Suppose the vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m> are entered into the applet.
+</p>
+
+<ul>
+  <li>
+    <p>
+      Observe how the vector <m>\mathbf{u}+\mathbf{v}</m> is formed using the tip-to-tail method.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Reverse the order and observe <m>\mathbf{v}+\mathbf{u}</m>.
+    </p>
+  </li>
+
+  <li>
+    <p>
+      How does the diagram change?
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Does the resulting vector change?
+    </p>
+  </li>
+
+  <li>
+    <p>
+      Modify the vectors and test several different pairs.
+    </p>
+  </li>
+</ul>
+
+<p>
+Based on your observations, explain in words why vector addition is commutative.
+</p>
+
+<p>
+Do not compute components. Focus on the geometry shown by the applet.
+</p>
+    </statement>
+  </checkpoint>
+</handout>
+
+<note knowl="no">
+  <title>Vector Addition Applet (Optional Exploration)</title>
+
+  <p>
+    You can explore vector addition interactively using the applet below.
+  </p>
+
+  <ul>
+    <li><p>Enter your own vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m>.</p></li>
+    <li><p>Observe how scaling affects magnitude and direction.</p></li>
+    <li><p>Test <m>\mathbf{u}+\mathbf{v}</m> and <m>\mathbf{v}+\mathbf{u}</m> with different vectors.</p></li>
+  </ul>
+
+<p>
+To explore vector addition interactively, open the
+<url href="https://davidmathlogic.com/amit/vectorcommutivity.html">
+Vector Addition Commutativity Applet (external link)
+</url>.
+</p>
+</note>
+
       </subsection>
       <subsection xml:id="sec-01-07-applet-optional">
         <title>Vector Addition Applet (Optional Exploration)</title>
