@@ -4,17 +4,39 @@
       <title>Section 01 - Introduction to Plane Vectors</title>
       <subsection xml:id="sec-01-01-notation">
         <title>Describe a Plane Vector Using Correct Notation</title>
-        <p>[Placeholder]</p>
+  <p>
+    The term <em>vector</em> is used by scientists to describe a quantity
+    (such as displacement, velocity, or force) that has both magnitude
+    and direction. A vector is often represented by an arrow, or directed
+    line segment. The length of the arrow represents the magnitude of the
+    vector, and the arrow points in the direction of the vector.
+  </p>
+
+  <p>
+    We denote a vector by printing a letter in boldface,
+    <m>\mathbf{v}</m>, or by placing an arrow above the letter,
+    <m>\overrightarrow{v}</m>.
+  </p>
+
+  <p>
+    For example, suppose a particle moves along a line segment from point
+    <m>A</m> to point <m>B</m>. The corresponding <em>displacement vector</em>
+    <m>\mathbf{v}</m>, shown in <xref ref="figure1"/>,
+    has initial point <m>A</m> (the tail) and terminal point <m>B</m>
+    (the tip). We indicate this by writing
+    <m>\mathbf{v} = \overrightarrow{AB}</m>.
+  </p>
+
 <figure xml:id="figure1">
-  <image source="images/ch01/Figure1.png"/>
+  <image source="images/ch01/Figure1.png">
+    <shortdescription>
+      Examples of vectors shown with their initial and terminal points.
+    </shortdescription>
+  </image>
   <caption>
     Examples of vectors shown with their initial and terminal points.
   </caption>
-  <description>
-  Figure: Examples of vectors shown with their initial and terminal points.
-  </description>
-</figure>   
-
+</figure>
       </subsection>
       <subsection xml:id="sec-01-02-concept-check">
         <title>Concept Check</title>
