@@ -51,12 +51,65 @@
   </caption>
 </figure>
 
+<p>
+Notice that the vector
+<math>\vec{u} = \overrightarrow{CD}</math>
+has the same length and the same direction as
+<math>\vec{v}</math>,
+even though it is in a different position.
+We say that <math>\vec{u}</math> and <math>\vec{v}</math> are
+<em>equivalent</em> (or <em>equal</em>), and we write
+<math>\vec{u} = \vec{v}</math>.
+</p>
+
+<p>
+To summarize,
+<math>\overrightarrow{AB} = \overrightarrow{CD}</math>
+because they have the same length and the same direction.
+However,
+<math>\overrightarrow{AB} \neq \overrightarrow{EF}</math>
+and
+<math>\overrightarrow{AB} \neq \overrightarrow{RQ}</math>
+because even though they have the same length, they do not have the same direction.
+</p>
+
+<p>
+The <term>zero vector</term>, denoted by
+<math>\vec{0}</math>,
+has length 0.
+It is the only vector with no specific direction.
+</p>
 
       </subsection>
       <subsection xml:id="sec-01-02-concept-check">
         <title>Concept Check</title>
         <handout>
-        <p>[Placeholder]</p>
+        <example>
+  <statement>
+    Suppose vectors <math>\vec{u}</math> and <math>\vec{v}</math> have the same magnitude.
+  </statement>
+
+  <tasks>
+    <task>
+      Is this enough to guarantee that
+      <math>\vec{u} = \vec{v}</math>?
+      Explain why or why not.
+    </task>
+
+    <task>
+      Suppose <math>\vec{u}</math> and <math>\vec{v}</math> point in the same direction.
+      Is this enough to guarantee that
+      <math>\vec{u} = \vec{v}</math>?
+    </task>
+
+    <task>
+      State exactly what conditions must be met for two vectors to be equivalent.
+      Do not draw.
+      Explain your answer in words.
+    </task>
+  </tasks>
+</example>
+
         </handout>
       </subsection>
       <subsection xml:id="sec-01-03-basic-ops">
