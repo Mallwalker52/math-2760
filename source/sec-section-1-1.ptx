@@ -17,10 +17,6 @@
 
       <subsection xml:id="sec-01-01-notation">
         <title>Describe a Plane Vector Using Correct Notation</title>
-<p>
-  <url href="#" xml:id="sec-01-01-notation-print">🖨️ Print this subsection</url>
-</p>
-
   <p>
     The term <em>vector</em> is used by scientists to describe a quantity
     (such as displacement, velocity, or force) that has both magnitude
@@ -59,7 +55,9 @@
       </subsection>
       <subsection xml:id="sec-01-02-concept-check">
         <title>Concept Check</title>
+        <handout>
         <p>[Placeholder]</p>
+        </handout>
       </subsection>
       <subsection xml:id="sec-01-03-basic-ops">
         <title>Perform the Basic Vector Operations of Scalar Multiplication and Vector Addition and Subtraction</title>
