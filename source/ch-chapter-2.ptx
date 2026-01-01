@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Vector-Valued Functions and Motion in Space</title>
+
+<introduction>
+  <p>
+    In this chapter, we shift our focus from static geometric objects to curves and motion in space.
+    Vector-valued functions provide a natural way to describe paths traced by particles, where position,
+    velocity, and acceleration are all represented using vectors. This perspective allows us to study
+    motion geometrically while working componentwise in calculations.
+  </p>
+
+  <p>
+    We begin by defining vector-valued functions and examining their limits, continuity, and derivatives.
+    These ideas extend familiar concepts from single-variable calculus, but now apply to curves in two
+    and three dimensions. Building on derivatives, we introduce velocity and acceleration vectors and
+    use them to analyze how a particle moves along a curve.
+  </p>
+
+  <p>
+    The chapter then develops a geometric description of motion using tangent, normal, and binormal
+    vectors, arc length, and curvature. These tools help describe not just where a particle is, but how
+    its path bends and how its direction changes. By the end of the chapter, you should be able to
+    connect algebraic computations to the geometric behavior of curves in space, laying the groundwork
+    for later topics in vector calculus.
+  </p>
+</introduction>
+
+
+  <!-- include sections -->
+  <xi:include href="sec-section-2-1.ptx" />
+
+</chapter>
