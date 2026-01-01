@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-appendix" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Appendix</title>
+
+<introduction>
+  <p>
+    This appendix collects reference material that supports the main text but is not meant to be
+    read sequentially. The topics included here provide tools, reminders, and summaries that are
+    useful throughout the course, especially when working through examples or practice problems
+    in the main chapters.
+  </p>
+
+  <p>
+    The first section contains tables of integrals and related reference formulas that may be helpful
+    when performing computations. The second section reviews key ideas from linear algebra, including
+    matrices, determinants, and related concepts that appear naturally in multivariable calculus.
+    These materials are intended as a refresher rather than a full development.
+  </p>
+
+  <p>
+    The appendix concludes with a listing of figures used throughout the text.
+    This allows readers to quickly locate visual references and reinforces the role of geometric
+    interpretation in understanding multivariable calculus. You may return to this appendix as
+    needed while studying the main chapters.
+  </p>
+</introduction>
+
+
+
+  <!-- include sections -->
+  <xi:include href="sec-section-A-1.ptx" />
+  <xi:include href="sec-section-A-2.ptx" />
+  <xi:include href="sec-section-A-3.ptx" />
+
+</chapter>

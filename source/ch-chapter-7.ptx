@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-7" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Triple Integrals and Coordinate Systems</title>
+
+<introduction>
+  <p>
+    In this chapter, we extend integration into three dimensions.
+    Triple integrals allow us to compute quantities such as volume, mass, and average value over
+    solid regions in space. As with double integrals, success depends not only on computation but
+    also on understanding the geometry of the region being integrated over.
+  </p>
+
+  <p>
+    We begin by evaluating triple integrals over rectangular boxes and general bounded regions.
+    Changing the order of integration plays an important role, and careful attention to bounds helps
+    ensure correct setup. These ideas reinforce the connection between algebraic limits of integration
+    and the geometric shape of a region.
+  </p>
+
+  <p>
+    The chapter then introduces cylindrical and spherical coordinate systems.
+    These coordinate choices align naturally with common three-dimensional geometries and often
+    simplify both region descriptions and calculations. By the end of the chapter, you should be able
+    to select an appropriate coordinate system and efficiently compute triple integrals for a wide
+    variety of solid regions.
+  </p>
+</introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-7-1.ptx" />
+  <xi:include href="sec-section-7-2.ptx" />
+  <xi:include href="sec-section-7-3.ptx" />  
+  <xi:include href="sec-section-7-4.ptx" />
+
+</chapter>

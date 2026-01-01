@@ -4,10 +4,40 @@
   <title>Vectors, Geometry, and Equations in Space</title>
 
   <introduction>
-    <p> This is a test chapter. Testing. </p>
+   <p>
+    This chapter introduces vectors as mathematical objects that describe both magnitude and direction.
+    We begin in the plane, learning how to represent vectors using correct notation and how to combine
+    them using basic operations such as addition, subtraction, and scalar multiplication. From there,
+    we move to component form and unit vectors, which provide a flexible algebraic way to work with
+    vectors in calculations and applications.
+  </p>
+
+  <p>
+    We then extend these ideas into three-dimensional space, developing the geometric tools needed
+    to describe points, distances, lines, and planes. Along the way, we introduce the dot product and
+    cross product, highlighting how these operations connect algebraic computations to geometric ideas
+    such as angles, projections, areas, and orientation in space.
+  </p>
+
+  <p>
+    By the end of this chapter, you should be comfortable translating between geometric descriptions
+    and algebraic expressions involving vectors, and using vector methods to analyze problems in
+    two and three dimensions. These tools form the foundation for much of the work in the remainder
+    of the course.
+  </p>
   </introduction>
 
   <!-- include sections -->
   <xi:include href="sec-section-1-1.ptx" />
+  <xi:include href="sec-section-1-2.ptx" />
+  <xi:include href="sec-section-1-3.ptx" />
+  <xi:include href="sec-section-1-4.ptx" />
+  <xi:include href="sec-section-1-5.ptx" />
+  <xi:include href="sec-section-1-6.ptx" />
+  <xi:include href="sec-section-1-7.ptx" />
+  <xi:include href="sec-section-1-8.ptx" />
+  <xi:include href="sec-section-1-9.ptx" />
+  <xi:include href="sec-section-1-10.ptx" />
+  <xi:include href="sec-section-1-11.ptx" />
 
 </chapter>

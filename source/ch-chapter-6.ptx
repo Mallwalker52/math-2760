@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-6" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Double Integrals and Applications</title>
+
+<introduction>
+  <p>
+    In this chapter, we extend integration to functions of two variables.
+    Double integrals allow us to compute quantities such as area, volume, mass, and average value
+    over regions in the plane. These integrals generalize familiar single-variable ideas, but now require
+    careful attention to the geometry of the region being integrated over.
+  </p>
+
+  <p>
+    We begin by evaluating double integrals as iterated integrals over rectangular regions.
+    Fubini’s Theorem provides the theoretical foundation for this process and allows us to change
+    the order of integration when appropriate. We then move beyond rectangles to more general
+    regions, learning how to describe and integrate over nonrectangular domains.
+  </p>
+
+  <p>
+    The chapter concludes with improper double integrals and a transition to polar coordinates.
+    Polar coordinates offer a natural advantage when regions exhibit circular symmetry and often
+    simplify both the description of a region and the computation itself. By the end of the chapter,
+    you should be comfortable choosing integration methods that best match the geometry of a problem.
+  </p>
+</introduction>
+
+
+  <!-- include sections -->
+  <xi:include href="sec-section-6-1.ptx" />
+  <xi:include href="sec-section-6-2.ptx" />
+  <xi:include href="sec-section-6-3.ptx" />
+  <xi:include href="sec-section-6-4.ptx" />
+
+</chapter>

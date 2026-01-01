@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-10" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Divergence, Curl, and Surface Integrals</title>
+
+<introduction>
+  <p>
+    In this chapter, we study divergence and curl, two fundamental quantities that describe how vector
+    fields behave locally. Divergence measures sources and sinks, while curl captures rotational
+    behavior. Together, these ideas provide insight into how a vector field spreads out or circulates
+    at each point in space.
+  </p>
+
+  <p>
+    We begin by interpreting divergence and curl conceptually before focusing on computation.
+    Understanding what these quantities mean geometrically helps clarify their role in fluid flow,
+    electromagnetism, and other applications. We then connect these ideas to conservative vector
+    fields and earlier concepts from line integrals and Green’s Theorem.
+  </p>
+
+  <p>
+    The chapter continues with surface integrals, extending integration to curved surfaces in space.
+    Both scalar and vector surface integrals are introduced, with careful attention to orientation and
+    geometric interpretation. By the end of the chapter, you should be able to set up and evaluate
+    surface integrals and understand how divergence and curl influence flux across surfaces.
+  </p>
+</introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-10-1.ptx" />
+  <xi:include href="sec-section-10-2.ptx" />
+  <xi:include href="sec-section-10-3.ptx" />
+
+</chapter>

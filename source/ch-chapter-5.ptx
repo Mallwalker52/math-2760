@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Gradients, Optimization, and Lagrange Multipliers</title>
+
+<introduction>
+  <p>
+    In this chapter, we develop tools for understanding how multivariable functions change and how they
+    reach extreme values. Central to this study is the gradient, a vector that captures both the direction
+    of steepest increase and the rate of change of a function at a point. Gradients provide a powerful
+    geometric interpretation of partial derivatives working together.
+  </p>
+
+  <p>
+    We begin by studying directional derivatives and gradients, emphasizing how they describe local
+    behavior of a surface. From there, we examine higher-order partial derivatives and use them to
+    classify critical points as maxima, minima, or saddle points. These techniques allow us to analyze
+    the shape of a surface and predict its behavior near important points.
+  </p>
+
+  <p>
+    The chapter concludes with constrained optimization using Lagrange multipliers. This method
+    shows how optimal values occur when the geometry of a function aligns with the geometry of a
+    constraint. By the end of the chapter, you should be able to solve both unconstrained and constrained
+    optimization problems and understand the geometric ideas that justify the methods.
+  </p>
+</introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-5-1.ptx" />
+  <xi:include href="sec-section-5-2ptx" />
+  <xi:include href="sec-section-5-3.ptx" />
+  <xi:include href="sec-section-5-4.ptx" />
+  <xi:include href="sec-section-5-5.ptx" />
+  <xi:include href="sec-section-5-6.ptx" />
+  <xi:include href="sec-section-5-7.ptx" />
+  <xi:include href="sec-section-5-8.ptx" />
+  <xi:include href="sec-section-5-9.ptx" />
+
+</chapter>

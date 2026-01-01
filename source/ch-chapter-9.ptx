@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-9" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Green’s Theorem and Planar Vector Calculus</title>
+
+<introduction>
+  <p>
+    In this chapter, we introduce Green’s Theorem, a fundamental result that connects line integrals
+    around closed curves to double integrals over planar regions. This theorem reveals a deep
+    relationship between circulation, flux, and the behavior of a vector field throughout a region,
+    rather than just along its boundary.
+  </p>
+
+  <p>
+    We begin by studying both the circulation and flux forms of Green’s Theorem and learning when
+    each applies. Careful attention is given to orientation, region geometry, and the conditions under
+    which the theorem can be used. These considerations help clarify not only how to apply the theorem,
+    but also why it works.
+  </p>
+
+  <p>
+    The chapter concludes by extending Green’s Theorem to more general regions, including regions
+    with holes. By the end of this chapter, you should be able to recognize when Green’s Theorem
+    simplifies a problem, choose the appropriate form, and interpret the result geometrically as a
+    statement about flow and rotation in the plane.
+  </p>
+</introduction>
+
+
+  <!-- include sections -->
+  <xi:include href="sec-section-9-1.ptx" />
+  <xi:include href="sec-section-9-2.ptx" />
+  <xi:include href="sec-section-9-3.ptx" />
+
+</chapter>

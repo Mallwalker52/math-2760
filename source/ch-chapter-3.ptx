@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-2" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Vector-Valued Functions and Motion in Space</title>
-
+<chapter xml:id="ch-chapter-3" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Surfaces and Coordinate Systems</title>
+  
 <introduction>
   <p>
     In this chapter, we shift our focus from static geometric objects to curves and motion in space.
@@ -29,14 +29,9 @@
 
 
   <!-- include sections -->
-  <xi:include href="sec-section-2-1.ptx" />
-  <xi:include href="sec-section-2-2.ptx" />
-  <xi:include href="sec-section-2-3.ptx" />
-  <xi:include href="sec-section-2-4.ptx" />
-  <xi:include href="sec-section-2-5.ptx" />
-  <xi:include href="sec-section-2-6.ptx" />
-  <xi:include href="sec-section-2-7.ptx" />
-  <xi:include href="sec-section-2-8.ptx" />
-  <xi:include href="sec-section-2-9.ptx" />
-
+  <xi:include href="sec-section-3-1.ptx" />
+  <xi:include href="sec-section-3-2.ptx" />
+  <xi:include href="sec-section-3-3.ptx" />
+  <xi:include href="sec-section-3-4.ptx" />
+    
 </chapter>

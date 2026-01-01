@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-8" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Line Integrals and Conservative Fields</title>
+
+<introduction>
+  <p>
+    In this chapter, we introduce line integrals and vector fields, which allow us to measure quantities
+    that accumulate along curves. Unlike earlier integrals over regions, line integrals depend on both
+    the path taken and the direction of motion. Vector fields provide the setting for these ideas by
+    assigning a vector to every point in space.
+  </p>
+
+  <p>
+    We begin by defining scalar line integrals and interpreting them geometrically, including their
+    connection to arc length. We then study vector line integrals, which model physical quantities such
+    as work done by a force along a path. Parametric descriptions of curves play a central role, linking
+    the geometry of a path to the algebra of integration.
+  </p>
+
+  <p>
+    The chapter concludes with conservative vector fields and potential functions.
+    When a vector field is conservative, line integrals simplify dramatically and depend only on
+    endpoints rather than paths. By the end of the chapter, you should be able to recognize conservative
+    fields, find potential functions, and use them to evaluate line integrals efficiently.
+  </p>
+</introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-section-8-1.ptx" />
+  <xi:include href="sec-section-8-2.ptx" />
+  <xi:include href="sec-section-8-3.ptx" />
+  <xi:include href="sec-section-8-4.ptx" />
+
+</chapter>
