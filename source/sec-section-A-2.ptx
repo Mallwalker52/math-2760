@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-  <appendix xml:id="app-matrix-tools">
+  <section xml:id="app-matrix-tools">
     <title>Matrix Tools for Multivariable Calculus</title>
     <p>[Placeholder: Jacobian/Hessian, RREF, determinants, eigenvalues, etc.]</p>
-  </appendix>
+  </section>
 
