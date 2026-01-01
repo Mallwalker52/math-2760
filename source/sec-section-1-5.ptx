@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-    <section xml:id="sec-12-vvf-intro">
-      <title>12 – Introduction to Vector-Valued Functions</title>
-      <p>[Placeholder]</p>
+    <section xml:id="sec-section-1-5">
+      <title>Secction 05 - Properties of the Dot Product in 2 and 3 Dimensions</title>
+      <subsection xml:id="sec-05-01-calc-dot">
+        <title>Calculate a Dot Product</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-05-02-dot-2d">
+        <title>Calculating Dot Product in Two Dimensions</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-05-03-properties">
+        <title>Use Properties of the Dot Product</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-05-04-practice">
+        <title>Section 05 Practice Problems</title>
+        <p>[Placeholder]</p>
+      </subsection>
     </section>

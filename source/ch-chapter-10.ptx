@@ -15,7 +15,7 @@
     We begin by interpreting divergence and curl conceptually before focusing on computation.
     Understanding what these quantities mean geometrically helps clarify their role in fluid flow,
     electromagnetism, and other applications. We then connect these ideas to conservative vector
-    fields and earlier concepts from line integrals and Green’s Theorem.
+    fields and earlier concepts from line integrals and Green's Theorem.
   </p>
 
   <p>

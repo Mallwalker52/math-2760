@@ -6,22 +6,22 @@
 <introduction>
   <p>
     In this final chapter, we study two major results that unify many of the ideas developed
-    throughout vector calculus. Stokes’ Theorem and the Divergence Theorem connect integrals over
+    throughout vector calculus. Stokes' Theorem and the Divergence Theorem connect integrals over
     regions to integrals over their boundaries, revealing deep relationships between local behavior
     and global outcomes in vector fields.
   </p>
 
   <p>
-    We begin with Stokes’ Theorem, which links surface integrals of curl to line integrals around
+    We begin with Stokes' Theorem, which links surface integrals of curl to line integrals around
     boundary curves. Orientation and the right-hand rule play a central role, and careful geometric
-    reasoning helps ensure correct setup. This theorem generalizes Green’s Theorem and extends its
+    reasoning helps ensure correct setup. This theorem generalizes Green's Theorem and extends its
     ideas into three dimensions.
   </p>
 
   <p>
     The chapter concludes with the Divergence Theorem, which relates flux through a closed surface
     to divergence within the enclosed region. By the end of the chapter, you should be able to see
-    Stokes’ Theorem and the Divergence Theorem as natural culminations of earlier concepts, tying
+    Stokes' Theorem and the Divergence Theorem as natural culminations of earlier concepts, tying
     together line integrals, surface integrals, and volume integrals into a coherent framework.
   </p>
 </introduction>

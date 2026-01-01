@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-    <section xml:id="sec-12-vvf-intro">
-      <title>12 – Introduction to Vector-Valued Functions</title>
-      <p>[Placeholder]</p>
+    <section xml:id="sec-section-1-4">
+      <title>Section 04 - Introduction to Three-Dimensional Coordinate Systems</title>
+      <subsection xml:id="sec-04-01-3d-system">
+        <title>The Three-Dimensional Coordinate System</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-04-02-octants-applet">
+        <title>Exploring Octants Using a 3D Visualization Applet</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-04-03-sketch-point">
+        <title>Sketch a Point in Three-Dimensional Space; Example of Using a 3D Coordinate Applet</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-04-04-applet-optional">
+        <title>3D Coordinate Applet (Optional Exploration)</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-04-05-distance-two-points">
+        <title>Find the Distance Between Two Points in Space</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-04-06-distance-formula">
+        <title>Distance Between Two Points in Space</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-04-07-practice">
+        <title>Section 04 Practice Problems</title>
+        <p>[Placeholder]</p>
+      </subsection>
     </section>
+

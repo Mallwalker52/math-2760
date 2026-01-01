@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-    <section xml:id="sec-12-vvf-intro">
-      <title>12 – Introduction to Vector-Valued Functions</title>
-      <p>[Placeholder]</p>
-    </section>
+  <appendix xml:id="app-matrix-tools">
+    <title>Matrix Tools for Multivariable Calculus</title>
+    <p>[Placeholder: Jacobian/Hessian, RREF, determinants, eigenvalues, etc.]</p>
+  </appendix>
+

@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-    <section xml:id="sec-12-vvf-intro">
-      <title>12 – Introduction to Vector-Valued Functions</title>
-      <p>[Placeholder]</p>
+    <section xml:id="sec-section-1-6">
+      <title>Section 06 - Applications of Dot Products</title>
+      <subsection xml:id="sec-06-01-angle-between">
+        <title>Find the Angle Between Two Vectors Using Dot Products and Magnitudes</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-02-dot-product">
+        <title>Dot Product</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-03-work">
+        <title>Use a Dot Product to Determine Amount of Work</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-04-work-def">
+        <title>Work</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-05-projection">
+        <title>Determine a Vector Projection</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-06-projection-def">
+        <title>Vector Projection of v onto u</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-07-scalar-projection">
+        <title>The Length of the Projection Vector (Scalar Projection)</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-08-projection-applet">
+        <title>Exploring Vector and Scalar Projections Using an Interactive Applet</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-09-applet-optional">
+        <title>Vector Projection Applet (Optional Exploration)</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-10-practice">
+        <title>Section 06 Practice Problems</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-06-11-velocity-scalar-proj">
+        <title>Use a Scalar Projection to Determine a Velocity</title>
+        <p>[Placeholder]</p>
+      </subsection>
     </section>

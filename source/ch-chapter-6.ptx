@@ -13,7 +13,7 @@
 
   <p>
     We begin by evaluating double integrals as iterated integrals over rectangular regions.
-    Fubini’s Theorem provides the theoretical foundation for this process and allows us to change
+    Fubini's Theorem provides the theoretical foundation for this process and allows us to change
     the order of integration when appropriate. We then move beyond rectangles to more general
     regions, learning how to describe and integrate over nonrectangular domains.
   </p>

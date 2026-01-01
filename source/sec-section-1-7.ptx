@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-    <section xml:id="sec-12-vvf-intro">
-      <title>12 – Introduction to Vector-Valued Functions</title>
-      <p>[Placeholder]</p>
+    <section xml:id="sec-section-1-7">
+      <title>Section 07 - Angles Between Vectors and Directional Angles</title>
+      <subsection xml:id="sec-07-01-orthogonal">
+        <title>Determine if Vectors Are Orthogonal</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-02-orthogonal-def">
+        <title>Orthogonal Vectors</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-03-resolve-components">
+        <title>Resolve a Vector into Components</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-04-resolution-theorem">
+        <title>Theorem 7.1 Vector Resolution Theorem</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-05-direction-angles">
+        <title>Determine Directional Angles and Directional Cosines (in Radians)</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-06-directional-cosines">
+        <title>Directional Angles and Directional Cosines</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-07-applet">
+        <title>Visualizing Direction Angles Using an Interactive Applet</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-08-applet-optional">
+        <title>Direction Angles Applet (Optional Exploration)</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-09-application">
+        <title>An Application of Directional Cosines</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-10-practice">
+        <title>Section 07 Practice Problems</title>
+        <p>[Placeholder]</p>
+      </subsection>
+      <subsection xml:id="sec-07-11-additional-conceptual">
+        <title>Additional Conceptual &amp; Reasoning Practice</title>
+        <p>[Placeholder]</p>
+      </subsection>
     </section>
