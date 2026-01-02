@@ -2,5 +2,13 @@
 
     <section xml:id="sec-section-5-2">
       <title>Section 35 - Directional Derivatives and Gradients for Functions in Three Variables</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Find the gradient of a function of three variables.</li>
+    <li>Find the directional derivative of a function of three variables.</li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

@@ -2,6 +2,20 @@
 
     <section xml:id="sec-section-7-4">
       <title>Section 50 - Integration in Spherical Coordinates</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Evaluate a triple integral in spherical coordinates.
+    </li>
+    <li>
+      Convert a triple integral from rectangular to spherical coordinates and integrate.
+    </li>
+    <li>
+      Change the order of integration in a spherical triple integral.
+    </li>
+  </ul>
+</objectives>
       <p>[Placeholder]</p>
     </section>
 

@@ -2,5 +2,24 @@
 
     <section xml:id="sec-section-8-3">
       <title>Section 53 - Potential Functions for Line Integrals</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Use the cross-partial property to show that a vector field is conservative.
+    </li>
+    <li>
+      Find the potential function and use it to compute a line integral.
+    </li>
+    <li>
+      Compute the flux of a vector field across a curve.
+    </li>
+    <li>
+      Calculate the circulation of a vector field.
+    </li>
+  </ul>
+</objectives>
+``
+
       <p>[Placeholder]</p>
     </section>

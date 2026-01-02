@@ -2,5 +2,14 @@
 
     <section xml:id="sec-section-5-1">
       <title>Section 34 - Directional Derivatives and Gradients for Functions in Two Variables</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Use the chain rule for one independent variable.</li>
+    <li>Use the chain rule for two independent variables.</li>
+    <li>Use the generalized chain rule.</li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

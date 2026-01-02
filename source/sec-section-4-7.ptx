@@ -2,5 +2,14 @@
 
     <section xml:id="sec-section-4-7">
       <title>Section 31 - Differentials and Maximum Error</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Use the differential to approximate the change in a function given the change in the inputs or to calculate maximum error.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

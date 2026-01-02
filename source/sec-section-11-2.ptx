@@ -2,5 +2,17 @@
 
     <section xml:id="sec-section-11-2">
       <title>Section 61 - Understand and Apply the Divergence Theorem</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Understand the Divergence Theorem.
+    </li>
+    <li>
+      Use the Divergence Theorem to compute the flux across a closed surface.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

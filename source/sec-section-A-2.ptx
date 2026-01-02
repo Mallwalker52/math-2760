@@ -2,6 +2,11 @@
 
   <section xml:id="app-matrix-tools">
     <title>Matrix Tools for Multivariable Calculus</title>
+    <p>
+  This section reviews selected topics from linear algebra that arise naturally in multivariable calculus,
+  including matrices, determinants, and related ideas. The material is presented as a brief refresher to
+  support recall and application, rather than a full development of the subject.
+</p>
     <p>[Placeholder: Jacobian/Hessian, RREF, determinants, eigenvalues, etc.]</p>
   </section>
 

@@ -2,5 +2,10 @@
 
   <section xml:id="app-integration-reference">
     <title>Integration Reference</title>
+    <p>
+  This section provides tables of integrals and related reference formulas commonly used in multivariable calculus.
+  These tables are included for quick consultation during computations and examples and are not intended to replace
+  conceptual understanding or derivations.
+</p>
     <p>[Placeholder: integration reference tables / techniques.]</p>
   </section>

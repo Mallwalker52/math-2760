@@ -2,5 +2,16 @@
 
     <section xml:id="sec-section-2-3">
       <title>Section 14 - Derivatives of Vector-Valued Functions</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Find the derivative of a vector-valued function.</li>
+    <li>Use linear properties of derivatives of vector-valued functions.</li>
+    <li>
+      Use dot product, cross product, and chain rule properties of derivatives of vector-valued functions.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

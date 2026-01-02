@@ -2,6 +2,21 @@
 
     <section xml:id="sec-section-10-2">
       <title>Section 58 - Scalar Surface Integrals</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Find the surface area of a parametrized surface.
+    </li>
+    <li>
+      Calculate the surface integral of a scalar-valued function.
+    </li>
+    <li>
+      Calculate the mass of a sheet described by a parametrized surface.
+    </li>
+  </ul>
+</objectives>
+    
       <p>[Placeholder]</p>
     </section>
 

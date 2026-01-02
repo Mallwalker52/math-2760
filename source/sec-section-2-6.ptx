@@ -2,5 +2,13 @@
 
     <section xml:id="sec-section-2-6">
       <title>Section 17 - Arc Length and Arc-Length Parameterization</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Find the arc length of a vector-valued function.</li>
+    <li>Find an arc-length parameterization for a vector-valued function.</li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

@@ -2,6 +2,24 @@
 
     <section xml:id="sec-section-10-1">
       <title>Section 57 - Divergence and Curl</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Find the divergence of a vector field.
+    </li>
+    <li>
+      Determine if a vector field is magnetic.
+    </li>
+    <li>
+      Compute the curl of a vector field.
+    </li>
+    <li>
+      Show that a vector field is not the curl of another vector field.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>
 

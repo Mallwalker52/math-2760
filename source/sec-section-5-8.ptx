@@ -2,6 +2,18 @@
 
     <section xml:id="sec-section-5-8">
       <title>Section 41 - Lagrange Multipliers with One Constraint</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Use Lagrange multipliers to find the maximum and minimum of a function of two variables.
+    </li>
+    <li>
+      Use Lagrange multipliers to find the maximum and minimum of a function of three variables.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>
 

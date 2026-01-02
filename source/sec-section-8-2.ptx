@@ -2,5 +2,20 @@
 
     <section xml:id="sec-section-8-2">
       <title>Section 52 - Vector Line Integrals</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Calculate a vector line integral along an oriented curve in space.
+    </li>
+    <li>
+      Calculate a vector line integral written in expanded notation.
+    </li>
+    <li>
+      Use properties to compute a vector line integral.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

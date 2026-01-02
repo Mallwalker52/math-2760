@@ -2,5 +2,14 @@
 
     <section xml:id="sec-section-5-9">
       <title>Section 42 - Lagrange Multipliers with Two Constraints</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Use Lagrange multipliers to find the maximum and minimum of a function with two constraints.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

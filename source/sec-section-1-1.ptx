@@ -2,7 +2,7 @@
 
     <section xml:id="sec-section-1-1">
       <title>Section 01 - Introduction to Plane Vectors</title>
-
+<introduction>
 <objectives>
   <p><em>Learning Objectives</em></p>
   <ul>
@@ -14,6 +14,7 @@
     <li>Determine whether two vectors are equivalent.</li>
   </ul>
 </objectives>
+</introduction>
 
       <subsection xml:id="sec-01-01-notation">
         <title>Describe a Plane Vector Using Correct Notation</title>
@@ -333,87 +334,107 @@ Vector Addition Commutativity Applet (external link)
 </url>.
 </p>
 </note>
+<worksheet xml:id="vector-examples-equivalence-representation">
+  <title>Example</title>
+
+  <exercise xml:id="vector-examples-ex-1">
+    <statement>
+      <p>
+        Vector <m>\vec{v}</m> has initial point <m>(2,3)</m> and terminal point <m>(1,4)</m>.
+        Vector <m>\vec{w}</m> has initial point <m>(0,0)</m> and terminal point <m>(-3,0)</m>.
+        Are the two vectors equivalent? Why or why not?
+      </p>
+
+      <figure xml:id="TwoDCoordinateGrid">
+        <image source="images/ch01/TwoDCoordinateGrid.png" width="40%">
+          <shortdescription>
+            A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
+          </shortdescription>
+        </image>
+      </figure>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-examples-ex-2">
+    <statement>
+      <p>
+        Consider a vector <m>\mathbf{u}</m> with initial point <m>(0,0)</m>
+        and terminal point <m>(5,6)</m>.
+      </p>
+
+      <ol marker="a.">
+        <li>
+          <p>
+            Draw a sketch of the vector <m>\mathbf{u}</m>.
+          </p>
+
+          <figure xml:id="TwoDCoordinateGrid-1">
+            <image source="images/ch01/TwoDCoordinateGrid-1.png" width="40%">
+              <shortdescription>
+                A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
+              </shortdescription>
+            </image>
+          </figure>
+        </li>
+
+        <li>
+          <p>
+            Write the vector <m>\mathbf{u}</m> in component form.
+          </p>
+        </li>
+
+        <li>
+          <p>
+            Write the vector <m>\mathbf{u}</m> in standard unit vector form.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+</worksheet>
 
       </subsection>
-<handout>
-  <title>Example</title>
-  <checkpoint knowl="no">
+
+<subsection>
+<title>Groupwork Activity</title>
+<worksheet xml:id="vector-equivalence-groupwork">
+  <title>Exploring Vector Equivalence</title>
+<p>Work with a partner to answer the following questions:</p>
+  <exercise xml:id="vector-equivalence-groupwork-1">
     <statement>
-    <p>
-      Vector <m>\vec{v}</m> has initial point <m>(2,3)</m> and terminal point <m>(1,4)</m>.
-      Vector <m>\vec{w}</m> has initial point <m>(0,0)</m> and terminal point <m>(-3,0)</m>.
-      Are the two vectors equivalent? Why or why not?
-    </p>
-    <figure xml:id="TwoDCoordinateGrid">
-  <image source="images/ch01/TwoDCoordinateGrid.png" width="40%">
-    <shortdescription>
-    A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
-    </shortdescription>
-  </image>
-</figure>
-    </statement>
-  </checkpoint>
-</handout>
-<handout>
-  <title>Example</title>
-  <checkpoint knowl="no">
-    <statement>
-<p>
-    Consider a vector <m>\mathbf{u}</m> with initial point <m>(0,0)</m> and terminal point <m>(5,6)</m>.
-  </p>
-
-  <ol>
-    <li>
-      <p>Draw a sketch of the vector <m>\mathbf{u}</m>.</p>
-        <figure xml:id="TwoDCoordinateGrid-1">
-  <image source="images/ch01/TwoDCoordinateGrid-1.png" width="40%">
-    <shortdescription>
-    A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
-    </shortdescription>
-  </image>
-  </figure>
-    </li>
-    <li>
-      <p>Write the vector <m>\mathbf{u}</m> in component form.</p>
-    </li>
-    <li>
-      <p>Write the vector <m>\mathbf{u}</m> in standard unit vector form.</p>
-    </li>
-  </ol>
-    </statement>
-  </checkpoint>
-</handout>
-<handout>
-<title>Groupwork Activity - Exploring Vector Equivalence</title>
-
-  <p>
-    Work with a partner to answer the following questions.
-  </p>
-
-  <ol>
-    <li>
       <p>
         Draw two vectors that are equivalent but clearly not in the same position.
       </p>
-    </li>
-    <li>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-equivalence-groupwork-2">
+    <statement>
       <p>
         Draw two vectors that have the same magnitude but are not equivalent.
       </p>
-    </li>
-    <li>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-equivalence-groupwork-3">
+    <statement>
       <p>
-        Is it possible for <m>\mathbf{u}+\mathbf{v}=\mathbf{0}</m> if neither <m>\mathbf{u}</m> nor <m>\mathbf{v}</m> is the zero vector?
+        Is it possible for <m>\mathbf{u}+\mathbf{v}=\mathbf{0}</m> if neither
+        <m>\mathbf{u}</m> nor <m>\mathbf{v}</m> is the zero vector?
         Explain your reasoning.
       </p>
-    </li>
-  </ol>
+    </statement>
+  </exercise>
 
   <p>
     Be prepared to justify each answer without using coordinates.
   </p>
-</handout>
+</worksheet>
+</subsection>
 
+<subsection>
+<title>Exercises on Plane Vectors</title>
 <worksheet xml:id="vector-practice">
   <title>Practice Problems</title>
 
@@ -529,4 +550,5 @@ Vector Addition Commutativity Applet (external link)
   </exercise>
 
 </worksheet>
+</subsection>
     </section>

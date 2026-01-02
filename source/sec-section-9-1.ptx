@@ -2,5 +2,20 @@
 
     <section xml:id="sec-section-9-1">
       <title>Section 54 - Circulation Form of Green's Theorem</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Apply the circulation form of Green's Theorem.
+    </li>
+    <li>
+      Use Green's Theorem to calculate work.
+    </li>
+    <li>
+      Use Green's Theorem to find the area of a region enclosed by a curve.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

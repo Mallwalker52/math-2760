@@ -2,5 +2,17 @@
 
     <section xml:id="sec-section-2-1">
       <title>Section 12 - Introduction to Vector-Valued Functions</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Interpret a vector-valued function as a parametric curve in two- or three-dimensional space.
+    </li>
+    <li>
+      Recognize common parametric curves and describe their geometric shapes based on the component functions.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

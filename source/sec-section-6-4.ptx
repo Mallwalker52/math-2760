@@ -2,5 +2,20 @@
 
     <section xml:id="sec-section-6-4">
       <title>Section 46 - Double Integrals Over a Polar Rectangular Region</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Express a region of the plane in terms of polar coordinates.
+    </li>
+    <li>
+      Evaluate a double integral in polar coordinates by using an iterated integral.
+    </li>
+    <li>
+      Convert an integral from rectangular to polar coordinates and evaluate.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

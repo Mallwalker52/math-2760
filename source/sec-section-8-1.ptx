@@ -2,5 +2,17 @@
 
     <section xml:id="sec-section-8-1">
       <title>Section 51 - Scalar Line Integrals</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Calculate a scalar line integral along a general curve.
+    </li>
+    <li>
+      Find the arc length of a curve using a scalar line integral.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

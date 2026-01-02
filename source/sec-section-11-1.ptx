@@ -2,5 +2,23 @@
 
     <section xml:id="sec-section-11-1">
       <title>Section 60 - Understand and Apply Stokes' Theorem</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Understand Stokes' Theorem.
+    </li>
+    <li>
+      Use Stokes' Theorem to compute a surface integral.
+    </li>
+    <li>
+      Use Stokes' Theorem to compute a line integral.
+    </li>
+    <li>
+      Use Faraday's Law to compute the curl of an electric field.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

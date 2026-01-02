@@ -2,5 +2,17 @@
 
     <section xml:id="sec-section-7-3">
       <title>Section 49 - Integration in Cylindrical Coordinates</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Evaluate a triple integral over a cylindrical box.
+    </li>
+    <li>
+      Convert a triple integral from rectangular to cylindrical coordinates and evaluate.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

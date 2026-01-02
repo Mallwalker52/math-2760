@@ -2,6 +2,7 @@
 
 <section xml:id="sec-section-1-2">
       <title>Section 02 - Vectors in Component Form</title>
+<introduction>
 <objectives>
   <p><em>Learning Objectives</em></p>
   <ul>
@@ -12,40 +13,313 @@
     <li>Find the component form of a vector using trigonometry.</li>
   </ul>
 </objectives>
+<p>
+  Vectors can describe motion, force, and displacement, but working with them geometrically is not always the most efficient approach.
+  By expressing vectors in component form, we translate geometric information into numerical form, which allows us to compute
+  magnitudes, perform operations, and apply trigonometry in a clear and systematic way. This section introduces component form
+  and shows how it connects points, directions, and vector operations.
+</p>
+</introduction>
       <subsection xml:id="sec-02-01-express-component">
         <title>Express a Vector in Component Form</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-02-02-vectors-component-form">
-        <title>Vectors in Component Form</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-02-03-concept-check">
-        <title>Concept Check</title>
-        <p>[Placeholder]</p>
+        <p>
+  We begin by defining how a vector is written in component form.
+</p>
+        <definition>
+  <title>Vectors in Component Form</title>
+  <p>
+    A vector <m>v = \langle x , y \rangle</m> with initial point
+    <m>(x_i , y_i)</m> and terminal point <m>(x_t , y_t)</m>
+    can be written in component form as
+  </p>
+  <p>
+    <me>
+      v = \langle x_t - x_i , y_t - y_i \rangle
+    </me>
+  </p>
+  <p>
+    The scalars <m>x</m> and <m>y</m> are called the components of <m>v</m>.
+    In particular, <m>x</m> is the first component and <m>y</m> is the second component.
+  </p>
+</definition>
+
+<handout>
+  <title>Concept Check</title>
+
+  <checkpoint knowl="no">
+    <statement>
+      <p>
+        Do not compute. Explain using words or a sketch. Suppose a vector starts at point
+        <m>A</m> and ends at point <m>B</m>.
+      </p>
+
+      <ol marker="A.">
+        <li>
+          <p>
+            What does each component of the vector represent geometrically?
+          </p>
+        </li>
+        <li>
+          <p>
+            If two vectors have the same component form, what must be true about their
+            magnitude and direction?
+          </p>
+        </li>
+        <li>
+          <p>
+            Can two different pairs of points produce the same component form?
+            Explain.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </checkpoint>
+</handout>
       </subsection>
       <subsection xml:id="sec-02-04-magnitude-ops">
         <title>Find the Magnitude of a Vector and Perform Vector Operations in Component Form</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-02-05-vector-operations">
-        <title>Vector Operations</title>
-        <p>[Placeholder]</p>
-      </subsection>
+       <p>
+  Once vectors are written in component form, we can define their basic operations algebraically.
+</p>
+<definition>
+  <title>Vector Operations</title>
+
+  <p>
+    Let <m>\mathbf{v} = \langle x_1 , y_1 \rangle</m> and
+    <m>\mathbf{w} = \langle x_2 , y_2 \rangle</m> be vectors, and let
+    <m>k</m> be a scalar.
+  </p>
+
+  <ol>
+    <li>
+      <p>
+        The magnitude of <m>\mathbf{v}</m> is
+      </p>
+      <me>
+        \lVert \mathbf{v} \rVert = \sqrt{x_1^2 + y_1^2}
+      </me>
+    </li>
+
+    <li>
+      <p>
+        Scalar multiplication is defined by
+      </p>
+      <me>
+        k \mathbf{v} = \langle k x_1 , k y_1 \rangle
+      </me>
+    </li>
+
+    <li>
+      <p>
+        Vector addition is defined by
+      </p>
+      <me>
+        \mathbf{v} + \mathbf{w} = \langle x_1 + x_2 , y_1 + y_2 \rangle
+      </me>
+    </li>
+
+    <li>
+      <p>
+        The magnitude of a scalar multiple satisfies
+      </p>
+      <me>
+        \lVert k \mathbf{v} \rVert = |k| \lVert \mathbf{v} \rVert
+      </me>
+    </li>
+  </ol>
+</definition>
+<worksheet xml:id="vector-magnitude-estimate">
+  <title>In Class Example</title>
+
+  <exercise xml:id="vector-magnitude-estimate-1">
+    <statement>
+      <p>
+        Vector <m>\vec{v}</m> has initial point <m>(3,8)</m> and terminal point
+        <m>(-4,-9)</m>. Find the magnitude of <m>\vec{v}</m>. Before computing,
+        estimate whether the magnitude should be larger or smaller than <m>10</m>.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
+</subsection>
+
       <subsection xml:id="sec-02-06-components-trig">
         <title>Find the Component of a Vector Using Trigonometry</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-02-07-horizontal-vertical">
-        <title>Horizontal and Vertical Components of a Vector</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-02-08-groupwork">
-        <title>Groupwork Activity</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-02-09-practice">
-        <title>Section 02 Practice Problems</title>
-        <p>[Placeholder]</p>
-      </subsection>
+<definition>
+  <title>Horizontal and Vertical Components of a Vector</title>
+
+  <p>
+    For a vector <m>\mathbf{v}</m> with magnitude <m>\lVert \mathbf{v} \rVert</m> and
+    direction angle <m>\theta</m>, the horizontal and vertical components of
+    <m>\mathbf{v}</m> are given by
+  </p>
+
+  <me>
+    \mathbf{v}
+    =
+    \langle
+      \lVert \mathbf{v} \rVert \cos(\theta),
+      \lVert \mathbf{v} \rVert \sin(\theta)
+    \rangle
+  </me>
+</definition>
+<worksheet xml:id="vector-components-trig-and-application">
+  <title>In Class Example</title>
+
+  <exercise xml:id="vector-components-trig-and-application-ex-1">
+    <statement>
+      <p>
+        Sketch the vector <m>\vec{v}</m> with magnitude <m>6</m> that forms an angle of
+        <m>150^\circ</m> with the positive <m>x</m>-axis. Then find the component form
+        of <m>\vec{v}</m>. Before finding components, predict whether the
+        <m>x</m>-component of the vector should be positive, negative, or zero.
+      </p>
+
+      <figure xml:id="Example1">
+        <image source="images/ch02/Example1.png">
+          <shortdescription>
+            A polar coordinate grid with degree markings shown alongside a Cartesian coordinate grid with horizontal and vertical axes.
+          </shortdescription>
+        </image>
+      </figure>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-components-trig-and-application-ex-2">
+    <statement>
+      <p>
+        A baseball player throws a ball at an initial speed of <m>105</m> mph at an angle
+        of elevation of <m>35^\circ</m>. Determine the velocity vector of the baseball
+        in component form. Round your answer to the nearest hundredth. Before computing,
+        identify which component will be larger in magnitude and explain why.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
+</subsection>
+<subsection>
+<title>Groupwork Activity</title>
+<worksheet xml:id="vector-components-groupwork">
+  <title>Exploring Vector Components</title>
+<p>Work with a partner to answer the following questions:</p>
+  <exercise xml:id="vector-components-groupwork-1">
+    <statement>
+      <p>
+        Draw two different vectors that have the same magnitude but different component forms.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-components-groupwork-2">
+    <statement>
+      <p>
+        Draw two vectors that have different magnitudes but share one component.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-components-groupwork-3">
+    <statement>
+      <p>
+        A vector has component form <m>\langle 0 , y \rangle</m>.
+        What can you say about its direction?
+      </p>
+    </statement>
+  </exercise>
+
+  <p>
+    Justify each answer without performing calculations.
+  </p>
+</worksheet>
+</subsection>
+<subsection>
+<title>Exercises on Vectors in Component Form</title>
+       <worksheet xml:id="vector-component-practice">
+  <title>Practice Problems</title>
+
+  <exercise xml:id="vector-component-practice-1">
+    <statement>
+      <p>
+        The initial and terminal points are given for the vector below.
+        Express <m>\mathbf{v}</m> in component form.
+      </p>
+      <ol marker="a.">
+        <li>
+          <p>
+            Initial point <m>(1,2)</m>, terminal point <m>(3,4)</m>.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-component-practice-2">
+    <statement>
+      <p>
+        Let <m>\mathbf{v}=\langle -6,12 \rangle</m> and
+        <m>\mathbf{w}=\langle -5,-8 \rangle</m>. Find the following.
+      </p>
+      <ol marker="a.">
+        <li>
+          <p>
+            <m>3\mathbf{v}+2\mathbf{w}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>\lVert -5\mathbf{w} \rVert</m>
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-component-practice-3">
+    <statement>
+      <p>
+        Consider the points <m>P(-1,3)</m> and <m>Q(-1,8)</m>.
+        Determine <m>\overrightarrow{QP}</m> in component form.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-component-practice-4">
+    <statement>
+      <p>
+        The initial and terminal points are given for the vector below.
+        Express <m>\mathbf{v}</m> in component form.
+      </p>
+      <ol marker="a.">
+        <li>
+          <p>
+            Initial point <m>(-3,6)</m>, terminal point <m>(-8,-10)</m>.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-component-practice-5">
+    <statement>
+      <p>
+        Let <m>\mathbf{v}=\langle -6,12 \rangle</m> and
+        <m>\mathbf{w}=\langle -5,-8 \rangle</m>.
+        Find <m>-\tfrac12 \mathbf{w}-4\mathbf{v}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-component-practice-6">
+    <statement>
+      <p>
+        Find the component form of a vector <m>\mathbf{v}</m> with magnitude <m>10</m>
+        that forms an angle of <m>-41^\circ</m> with the positive <m>x</m>-axis.
+        Round your answer to the nearest hundredth.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
+</subsection>
     </section>

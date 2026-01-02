@@ -2,5 +2,20 @@
 
     <section xml:id="sec-section-6-1">
       <title>Section 43 - Iterated Integrals and Properties of Double Integrals</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Evaluate a double integral over a rectangular region by writing it as an iterated integral.
+    </li>
+    <li>
+      Evaluate a double integral over a rectangular region by reversing the order of integration.
+    </li>
+    <li>
+      Recognize and use some of the properties of double integrals.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

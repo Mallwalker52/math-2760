@@ -2,5 +2,20 @@
 
     <section xml:id="sec-section-6-2">
       <title>Section 44 - Double Integrals Over Nonrectangular Regions</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Recognize when a function of two variables is integrable over a general region.
+    </li>
+    <li>
+      Evaluate a double integral by computing an iterated integral over a region bounded by two lines and two functions.
+    </li>
+    <li>
+      Evaluate a double integral over a more complex region by decomposing the region.
+    </li>
+  </ul>
+</objectives>
+
       <p>[Placeholder]</p>
     </section>

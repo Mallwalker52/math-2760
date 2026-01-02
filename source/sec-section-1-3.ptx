@@ -3,6 +3,7 @@
     <section xml:id="sec-section-1-3">
       <title>Section 03 - Unit Vectors</title>
 
+<introduction>
 <objectives>
   <p><em>Learning Objectives</em></p>
   <ul>
@@ -10,34 +11,318 @@
     <li>Express a vector in terms of standard unit vectors.</li>
   </ul>
 </objectives>
+</introduction>
 
       <subsection xml:id="sec-03-01-unit-vector">
         <title>Find a Unit Vector</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-03-02-definition">
-        <title>Unit Vector</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-03-03-concept-check">
-        <title>Concept Check</title>
-        <p>[Placeholder]</p>
+        <p>
+  We now introduce a normalized version of a vector that captures direction without magnitude.
+</p>
+
+<definition>
+  <title>Unit Vector</title>
+
+  <p>
+    A <em>unit vector</em> is a vector with magnitude <m>1</m>.
+    For any nonzero vector <m>\mathbf{v}</m>, the unit vector
+    <m>\mathbf{u}</m> in the direction of <m>\mathbf{v}</m> is defined by
+  </p>
+
+  <me>
+    \mathbf{u} = \frac{\mathbf{v}}{\lVert \mathbf{v} \rVert}
+  </me>
+</definition>
+<worksheet xml:id="unit-vector-concept-check">
+  <title>Concept Check</title>
+
+  <exercise xml:id="unit-vector-concept-check-1">
+    <statement>
+      <p>
+        Answer using words or a sketch, not calculations.
+      </p>
+
+      <ol marker="A.">
+        <li>
+          <p>
+            What information about a vector is preserved when we convert it to a unit vector?
+          </p>
+        </li>
+        <li>
+          <p>
+            What information is lost when a vector is converted to a unit vector?
+          </p>
+        </li>
+        <li>
+          <p>
+            Can two different vectors produce the same unit vector?
+            Explain your reasoning.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+</worksheet>
+<worksheet xml:id="unit-vector-examples">
+  <title>In Class Example</title>
+
+  <exercise xml:id="unit-vector-examples-ex-1">
+    <statement>
+      <p>
+        For the vector <m>\langle 3,-4 \rangle</m>, find a unit vector.
+        Before computing, predict whether the unit vector will point into
+        Quadrant II, III, or IV.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="unit-vector-examples-ex-2">
+    <statement>
+      <p>
+        Let <m>\mathbf{v}=\langle -4,1 \rangle</m>.
+        Find the unit vector in the opposite direction of <m>\mathbf{v}</m>.
+      </p>
+
+      <p>
+        Before computing, describe in words how the direction of this unit vector
+        compares to the direction of <m>\mathbf{v}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
       </subsection>
       <subsection xml:id="sec-03-04-standard-unit-vectors">
         <title>Express a Vector in Terms of Standard Unit Vectors</title>
-        <p>[Placeholder]</p>
+<p>
+  It is often useful to express vectors using fixed reference directions along the coordinate axes.
+</p>
+
+<definition>
+  <title>Standard Unit Vectors</title>
+
+  <p>
+    If <m>\mathbf{v}=\langle x,y\rangle</m>, then <m>\mathbf{v}</m> can be written in
+    standard unit vector form as
+  </p>
+
+  <me>
+    \mathbf{v}=x\mathbf{i}+y\mathbf{j}
+  </me>
+
+  <p>
+    where the <em>standard unit vectors</em> are
+    <m>\mathbf{i}=\langle 1,0\rangle</m> and
+    <m>\mathbf{j}=\langle 0,1\rangle</m>.
+  </p>
+</definition>
+<worksheet xml:id="standard-unit-vectors-examples">
+  <title>In Class Example</title>
+
+  <exercise xml:id="standard-unit-vectors-examples-ex-1">
+    <statement>
+      <p>
+        Express <m>\mathbf{v}=\langle 4,-8\rangle</m> in terms of standard unit vectors.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="standard-unit-vectors-examples-ex-2">
+    <statement>
+      <p>
+        Let <m>\mathbf{v}</m> be a unit vector that forms an angle of
+        <m>330^\circ</m> with the positive <m>x</m>-axis.
+        Express <m>\mathbf{v}</m> in terms of standard unit vectors.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="standard-unit-vectors-examples-ex-3">
+    <statement>
+      <p>
+        Let <m>\mathbf{v}=-\mathbf{i}+2\mathbf{j}</m> and
+        <m>\mathbf{w}=-4\mathbf{i}-3\mathbf{j}</m>.
+        Express <m>\mathbf{v}-\mathbf{w}</m> in terms of standard unit vectors.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
       </subsection>
-      <subsection xml:id="sec-03-05-standard-unit-vectors-def">
-        <title>Standard Unit Vectors</title>
-        <p>[Placeholder]</p>
-      </subsection>
+
       <subsection xml:id="sec-03-06-groupwork">
         <title>Groupwork Activity</title>
-        <p>[Placeholder]</p>
+<worksheet xml:id="unit-vectors-groupwork">
+  <title>Exploring Unit Vectors Geometrically</title>
+  <exercise xml:id="unit-vectors-groupwork-ex-1">
+    <statement>
+      <p>
+        Work with a partner to answer the following questions.
+      </p>
+
+      <ol>
+        <li>
+          <p>
+            Draw two different vectors that have the same unit vector.
+          </p>
+        </li>
+        <li>
+          <p>
+            Draw a vector and its corresponding unit vector on the same set of axes.
+          </p>
+        </li>
+        <li>
+          <p>
+            Can the zero vector have a unit vector?
+            Explain why or why not.
+          </p>
+        </li>
+      </ol>
+
+      <p>
+        Be prepared to justify your answers without using formulas.
+      </p>
+    </statement>
+  </exercise>
+</worksheet>
       </subsection>
-      <subsection xml:id="sec-03-07-practice">
-        <title>Section 03 Practice Problems</title>
-        <p>[Placeholder]</p>
+<subsection>
+<title>Exercises on Unit Vectors</title>
+<worksheet xml:id="unit-vector-practice">
+  <title>Practice Problems</title>
+
+  <exercise xml:id="unit-vector-practice-1">
+    <statement>
+      <p>
+        For each vector below, find a unit vector.
+      </p>
+      <ol>
+        <li><p><m>\langle 6,-3\rangle</m></p></li>
+        <li><p><m>\langle 5,0\rangle</m></p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="unit-vector-practice-2">
+    <statement>
+      <p>
+        Two vectors represent velocities:
+        <m>\mathbf{v}_1=\langle 10,-10\rangle</m> and
+        <m>\mathbf{v}_2=\langle 2,-2\rangle</m>.
+      </p>
+
+      <ol marker="a.">
+        <li>
+          <p>
+            Find a unit vector in the direction of each velocity.
+          </p>
+        </li>
+        <li>
+          <p>
+            What do you notice about the two unit vectors?
+          </p>
+        </li>
+        <li>
+          <p>
+            What does this tell you about how unit vectors encode direction?
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="unit-vector-practice-3">
+    <statement>
+      <p>
+        Let <m>\mathbf{v}=\langle 3,4\rangle</m>.
+      </p>
+
+      <ol marker="a.">
+        <li>
+          <p>
+            Find a unit vector <m>\mathbf{u}</m> in the direction of <m>\mathbf{v}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Write <m>\mathbf{v}</m> in the form <m>\lVert\mathbf{v}\rVert\,\mathbf{u}</m>.
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret this decomposition in words.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="unit-vector-practice-4">
+    <statement>
+      <p>
+        A particle moves in the direction <m>\langle -1,2\rangle</m>.
+      </p>
+
+      <ol marker="a.">
+        <li>
+          <p>
+            Find a unit vector that represents the direction of motion.
+          </p>
+        </li>
+        <li>
+          <p>
+            If the speed of the particle is <m>5</m> units per second,
+            write a velocity vector for the particle.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="unit-vector-practice-5">
+    <statement>
+      <p>
+        Think about direction before computation. For each description,
+        determine the axis and sign, then express the unit vector using
+        <m>\mathbf{i}</m> and <m>\mathbf{j}</m>.
+      </p>
+
+      <ol marker="a.">
+        <li><p>Write a unit vector pointing directly left.</p></li>
+        <li><p>Write a unit vector pointing directly upward.</p></li>
+        <li><p>Write a unit vector pointing directly downward.</p></li>
+      </ol>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="unit-vector-practice-6">
+    <statement>
+      <p>
+        Decide whether each statement is <em>always true</em>,
+        <em>sometimes true</em>, or <em>never true</em>.
+        Explain briefly.
+      </p>
+
+      <ol marker="a.">
+        <li>
+          <p>
+            Two vectors with the same magnitude must have the same unit vector.
+          </p>
+        </li>
+        <li>
+          <p>
+            Two vectors with the same unit vector must have the same magnitude.
+          </p>
+        </li>
+        <li>
+          <p>
+            Scaling a vector by a negative number changes its unit vector.
+          </p>
+        </li>
+      </ol>
+    </statement>
+  </exercise>
+
+</worksheet>
       </subsection>
     </section>
 
