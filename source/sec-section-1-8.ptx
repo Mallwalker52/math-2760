@@ -2,5 +2,19 @@
 
     <section xml:id="sec-section-1-8">
       <title>Section 08 - Find Orthogonal Vectors and Areas with Cross Products</title>
+
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Find the cross product of two vectors.</li>
+    <li>
+      Find the cross product of standard unit vectors and use properties of the cross product.
+    </li>
+    <li>Find the magnitude of a cross product.</li>
+    <li>Find a unit vector orthogonal to two given vectors.</li>
+    <li>Find the area of a parallelogram or triangle using a cross product.</li>
+  </ul>
+</objectives>
+
       <p>[Placeholder: subsections go here]</p>
     </section>

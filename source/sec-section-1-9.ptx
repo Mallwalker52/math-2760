@@ -2,5 +2,16 @@
 
     <section xml:id="sec-section-1-9">
       <title>Section 09 - Triple Scalar Products and Applications of Cross Products</title>
+
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Determine if vectors are coplanar (lie in the same plane) and find a vector orthogonal to a plane.
+    </li>
+    <li>Calculate torque.</li>
+  </ul>
+</objectives>
+
       <p>[Placeholder: subsections go here]</p>
     </section>

@@ -2,6 +2,15 @@
 
     <section xml:id="sec-section-1-4">
       <title>Section 04 - Introduction to Three-Dimensional Coordinate Systems</title>
+
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Sketch a point in three-dimensional space.</li>
+    <li>Find the distance between two points in space.</li>
+  </ul>
+</objectives>
+
       <subsection xml:id="sec-04-01-3d-system">
         <title>The Three-Dimensional Coordinate System</title>
         <p>[Placeholder]</p>

@@ -2,6 +2,15 @@
 
     <section xml:id="sec-section-1-6">
       <title>Section 06 - Applications of Dot Products</title>
+
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Use a scalar projection to determine a velocity.</li>
+    <li>Use a dot product to determine the amount of work.</li>
+  </ul>
+</objectives>
+
       <subsection xml:id="sec-06-01-angle-between">
         <title>Find the Angle Between Two Vectors Using Dot Products and Magnitudes</title>
         <p>[Placeholder]</p>

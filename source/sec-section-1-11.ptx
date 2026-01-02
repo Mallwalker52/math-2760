@@ -2,5 +2,16 @@
 
     <section xml:id="sec-section-1-11">
       <title>Section 11 - Equations for a Plane</title>
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Write the equation of a plane given points or lines.</li>
+    <li>Find the distance between a plane and a point.</li>
+    <li>Find the line of intersection for two planes.</li>
+    <li>Find the angle between two planes.</li>
+    <li>Find the distance between two parallel planes.</li>
+  </ul>
+</objectives>
+
       <p>[Placeholder: subsections go here]</p>
     </section>

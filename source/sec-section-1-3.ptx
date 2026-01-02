@@ -2,6 +2,15 @@
 
     <section xml:id="sec-section-1-3">
       <title>Section 03 - Unit Vectors</title>
+
+<objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Find a unit vector.</li>
+    <li>Express a vector in terms of standard unit vectors.</li>
+  </ul>
+</objectives>
+
       <subsection xml:id="sec-03-01-unit-vector">
         <title>Find a Unit Vector</title>
         <p>[Placeholder]</p>

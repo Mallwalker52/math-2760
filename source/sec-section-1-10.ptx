@@ -2,5 +2,18 @@
 
     <section xml:id="sec-section-1-10">
       <title>Section 10 - Vector and Parametric Equations of a Line</title>
+
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>
+      Find parametric and symmetric equations of a line passing through two points.
+    </li>
+    <li>Find parametric equations of a line segment.</li>
+    <li>Calculate the distance from a point to a line.</li>
+    <li>Determine if two lines are parallel, intersecting, or skew.</li>
+  </ul>
+</objectives>
+
       <p>[Placeholder: subsections go here]</p>
     </section>

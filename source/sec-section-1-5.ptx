@@ -2,6 +2,16 @@
 
     <section xml:id="sec-section-1-5">
       <title>Section 05 - Properties of the Dot Product in 2 and 3 Dimensions</title>
+
+<objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Calculate a dot product.</li>
+    <li>Use properties of the dot product.</li>
+    <li>Determine a vector projection.</li>
+  </ul>
+</objectives>
+      
       <subsection xml:id="sec-05-01-calc-dot">
         <title>Calculate a Dot Product</title>
         <p>[Placeholder]</p>

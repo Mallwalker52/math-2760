@@ -2,6 +2,17 @@
 
     <section xml:id="sec-section-1-7">
       <title>Section 07 - Angles Between Vectors and Directional Angles</title>
+
+      <objectives>
+  <p><em>Learning Objectives</em></p>
+  <ul>
+    <li>Find the angle between two vectors using dot products and magnitudes.</li>
+    <li>Determine if vectors are orthogonal.</li>
+    <li>Determine directional angles and directional cosines.</li>
+    <li>Resolve a vector into components.</li>
+  </ul>
+</objectives>
+
       <subsection xml:id="sec-07-01-orthogonal">
         <title>Determine if Vectors Are Orthogonal</title>
         <p>[Placeholder]</p>
