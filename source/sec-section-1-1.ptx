@@ -52,15 +52,15 @@
 </figure>
 
 <p>
-Notice that the vector <m>\mathbf{u}=\mathbf{CD}</m> has the same length and the same direction as
+Notice that the vector <m>\mathbf{u}=\overrightarrow{CD}</m> has the same length and the same direction as
 <m>\mathbf{v}</m>, even though it is in a different position.
 We say that <m>\mathbf{u}</m> and <m>\mathbf{v}</m> are <em>equivalent</em> (or <em>equal</em>), and we write
 <m>\mathbf{u}=\mathbf{v}</m>.
 </p>
 
 <p>
-To summarize, <m>\mathbf{AB}=\mathbf{CD}</m> because they have the same length and the same direction.
-However, <m>\mathbf{AB}\neq\mathbf{EF}</m> and <m>\mathbf{AB}\neq\mathbf{RQ}</m>
+To summarize, <m>\overrightarrow{AB}=\overrightarrow{CD}</m> because they have the same length and the same direction.
+However, <m>\overrightarrow{AB}\neq\overrightarrow{EF}</m> and <m>\overrightarrow{AB}\neq\overrightarrow{RQ}</m>
 because even though they have the same length, they do not have the same direction.
 </p>
 
@@ -74,13 +74,11 @@ It is the only vector with no specific direction.
 
   <checkpoint knowl="no">
     <statement>
-      <p>
-        Suppose vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m> have the same magnitude.
-      </p>
 
       <ol marker="A.">
         <li>
           <p>
+            Suppose vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m> have the same magnitude. 
             Is that enough to guarantee <m>\mathbf{u}=\mathbf{v}</m>? Why or why not?
           </p>
         </li>
@@ -136,7 +134,7 @@ It is the only vector with no specific direction.
 </definition>
 
 <p>
-In the figure below, notice the following:
+In <xref ref="figure2"/> below, notice the following:
 </p>
 
 <ul>
@@ -185,10 +183,10 @@ In the figure below, notice the following:
 Suppose a particle moves from point <m>A</m> to point <m>B</m>, so its displacement vector is
 <m>\overrightarrow{AB}</m>.
 The particle then changes direction and moves from <m>B</m> to <m>C</m>, with displacement vector
-<m>\overrightarrow{BC}</m>, as shown in the figure below.
+<m>\overrightarrow{BC}</m>, as shown in <xref ref="figure3"/> below.
 </p>
 <figure xml:id="figure3">
-  <image source="images/ch01/Figure3.png">
+  <image source="images/ch01/Figure3.png" width="40%">
     <shortdescription>
 A diagram showing vectors from point A to point B and from point A to point C, with an additional vector from point C to point B.
 </shortdescription>
@@ -226,7 +224,7 @@ and we define the sum of <m>\mathbf{u}</m> and <m>\mathbf{v}</m> as follows.
   </statement>
 </definition>
 <figure xml:id="figure4">
-  <image source="images/ch01/Figure4.png">
+  <image source="images/ch01/Figure4.png" width="40%">
     <shortdescription>
     A vector diagram showing two vectors placed tip to tail and their resulting sum.
     </shortdescription>
@@ -237,7 +235,7 @@ A vector diagram showing <m>\mathbf{u}</m>, <m>\mathbf{v}</m>, and their sum
   </caption>
 </figure>
 <p>
-In the figure below, we start with the same vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m>
+In <xref ref="figure5"/> below, we start with the same vectors <m>\mathbf{u}</m> and <m>\mathbf{v}</m>
 and draw another copy of <m>\mathbf{v}</m> with the same initial point as <m>\mathbf{u}</m>.
 Completing the parallelogram, we see that
 </p>
@@ -246,7 +244,7 @@ Completing the parallelogram, we see that
 \mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}.
 </me>
 <figure xml:id="figure5">
-  <image source="images/ch01/Figure5.png">
+  <image source="images/ch01/Figure5.png"  width="40%">
     <shortdescription>
 A parallelogram diagram showing two vectors from a common starting point and their combined result.
 </shortdescription>
@@ -337,16 +335,171 @@ Vector Addition Commutativity Applet (external link)
 </note>
 
       </subsection>
-      <subsection xml:id="sec-01-07-applet-optional">
-        <title>Vector Addition Applet (Optional Exploration)</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-01-08-groupwork">
-        <title>Groupwork Activity</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-01-09-practice">
-        <title>Section 01 Practice Problems</title>
-        <p>[Placeholder]</p>
-      </subsection>
+<handout>
+  <title>Example</title>
+  <checkpoint knowl="no">
+    <statement>
+    <p>
+      Vector <m>\vec{v}</m> has initial point <m>(2,3)</m> and terminal point <m>(1,4)</m>.
+      Vector <m>\vec{w}</m> has initial point <m>(0,0)</m> and terminal point <m>(-3,0)</m>.
+      Are the two vectors equivalent? Why or why not?
+    </p>
+    <figure xml:id="TwoDCoordinateGrid">
+  <image source="images/ch01/TwoDCoordinateGrid.png" width="40%">
+    <shortdescription>
+    A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
+    </shortdescription>
+  </image>
+</figure>
+    </statement>
+  </checkpoint>
+</handout>
+<handout>
+  <title>Example</title>
+  <checkpoint knowl="no">
+    <statement>
+<p>
+    Consider a vector <m>\mathbf{u}</m> with initial point <m>(0,0)</m> and terminal point <m>(5,6)</m>.
+  </p>
+
+  <ol>
+    <li>
+      <p>Draw a sketch of the vector <m>\mathbf{u}</m>.</p>
+        <figure xml:id="TwoDCoordinateGrid-1">
+  <image source="images/ch01/TwoDCoordinateGrid-1.png" width="40%">
+    <shortdescription>
+    A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
+    </shortdescription>
+  </image>
+  </figure>
+    </li>
+    <li>
+      <p>Write the vector <m>\mathbf{u}</m> in component form.</p>
+    </li>
+    <li>
+      <p>Write the vector <m>\mathbf{u}</m> in standard unit vector form.</p>
+    </li>
+  </ol>
+    </statement>
+  </checkpoint>
+</handout>
+<handout>
+<title>Groupwork Activity - Exploring Vector Equivalence</title>
+
+  <p>
+    Work with a partner to answer the following questions.
+  </p>
+
+  <ol>
+    <li>
+      <p>
+        Draw two vectors that are equivalent but clearly not in the same position.
+      </p>
+    </li>
+    <li>
+      <p>
+        Draw two vectors that have the same magnitude but are not equivalent.
+      </p>
+    </li>
+    <li>
+      <p>
+        Is it possible for <m>\mathbf{u}+\mathbf{v}=\mathbf{0}</m> if neither <m>\mathbf{u}</m> nor <m>\mathbf{v}</m> is the zero vector?
+        Explain your reasoning.
+      </p>
+    </li>
+  </ol>
+
+  <p>
+    Be prepared to justify each answer without using coordinates.
+  </p>
+</handout>
+<handout>
+<title>Practice Problems</title>
+    <ol marker="1.">
+    <li>
+        <p>
+          Draw a vector with initial point <m>A(5,6)</m> and terminal point <m>B(-2,-3)</m>.
+        </p>
+        <figure xml:id="TwoDCoordinateGrid-2">
+  <image source="images/ch01/TwoDCoordinateGrid-2.png" width="40%">
+    <shortdescription>
+    A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
+    </shortdescription>
+  </image>
+  </figure>
+  </li>
+<li>     
+        <p>
+          Draw a vector <m>\overrightarrow{CD}</m> that is equivalent to the vector
+          <m>\overrightarrow{AB}</m> you drew in (1).
+        </p>
+                <figure xml:id="TwoDCoordinateGrid-3">
+  <image source="images/ch01/TwoDCoordinateGrid-3.png" width="40%">
+    <shortdescription>
+    A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
+    </shortdescription>
+  </image>
+  </figure>
+  </li>
+<li>    
+        <p>
+          On the graph below, sketch the vector <m>-2\mathbf{v}</m> for the given vector
+          <m>\mathbf{v}</m>.
+        </p>
+        <figure xml:id="Practice3">
+  <image source="images/ch01/Practice3.png" width="40%">
+    <shortdescription>
+    A vector drawn on a coordinate grid from the point (-1, -2) to the point (-3, 2).
+    </shortdescription>
+  </image>
+  </figure>
+  </li>
+<li>
+        <p>
+          On the graph below, sketch the vector <m>\mathbf{a}+\mathbf{b}</m> that results
+          from the two vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m> shown using the
+          parallelogram method.
+        </p>
+        <figure xml:id="Practice4">
+  <image source="images/ch01/Practice4.png" width="40%">
+    <shortdescription>
+    A diagram showing vectors u and v drawn from the same point with their sum u + v shown as the diagonal.
+    </shortdescription>
+  </image>
+  </figure>
+  </li>
+<li>    
+        <p>
+          Sketch the vector <m>3\mathbf{a}-\mathbf{b}</m> that results from the two
+          vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m> shown.
+        </p>
+                <figure xml:id="Practice5">
+  <image source="images/ch01/Practice5.png" width="40%">
+    <shortdescription>
+A vector diagram showing u - v constructed by adding u to the opposite of v.
+    </shortdescription>
+  </image>
+  </figure>
+  </li>
+<li>   
+        <p>
+          Sketch a graph of two equivalent vectors.
+        </p>
+  </li>
+<li>
+        <p>
+          Sketch a graph of two non-equivalent vectors.
+        </p>
+  </li>
+<li>
+        <p>
+          If <m>\mathbf{u}=(3,1)</m> and <m>\mathbf{v}=(-1,2)</m>, find and sketch the
+          resulting vector:
+        </p>
+        <m>
+          \mathbf{u}+2\mathbf{v}-2\mathbf{u}+\mathbf{v}-\mathbf{u}-2\mathbf{u}+\mathbf{v}+2\mathbf{v}
+        </m>
+  </li>
+ </ol>
+</handout>
     </section>
