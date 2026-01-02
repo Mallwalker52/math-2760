@@ -413,93 +413,120 @@ Vector Addition Commutativity Applet (external link)
     Be prepared to justify each answer without using coordinates.
   </p>
 </handout>
-<handout>
-<title>Practice Problems</title>
-    <ol marker="1.">
-    <li>
-        <p>
-          Draw a vector with initial point <m>A(5,6)</m> and terminal point <m>B(-2,-3)</m>.
-        </p>
-        <figure xml:id="TwoDCoordinateGrid-2">
-  <image source="images/ch01/TwoDCoordinateGrid-2.png" width="40%">
-    <shortdescription>
-    A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
-    </shortdescription>
-  </image>
-  </figure>
-  </li>
-<li>     
-        <p>
-          Draw a vector <m>\overrightarrow{CD}</m> that is equivalent to the vector
-          <m>\overrightarrow{AB}</m> you drew in (1).
-        </p>
-                <figure xml:id="TwoDCoordinateGrid-3">
-  <image source="images/ch01/TwoDCoordinateGrid-3.png" width="40%">
-    <shortdescription>
-    A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
-    </shortdescription>
-  </image>
-  </figure>
-  </li>
-<li>    
-        <p>
-          On the graph below, sketch the vector <m>-2\mathbf{v}</m> for the given vector
-          <m>\mathbf{v}</m>.
-        </p>
-        <figure xml:id="Practice3">
-  <image source="images/ch01/Practice3.png" width="40%">
-    <shortdescription>
-    A vector drawn on a coordinate grid from the point (-1, -2) to the point (-3, 2).
-    </shortdescription>
-  </image>
-  </figure>
-  </li>
-<li>
-        <p>
-          On the graph below, sketch the vector <m>\mathbf{a}+\mathbf{b}</m> that results
-          from the two vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m> shown using the
-          parallelogram method.
-        </p>
-        <figure xml:id="Practice4">
-  <image source="images/ch01/Practice4.png" width="40%">
-    <shortdescription>
-    A diagram showing vectors u and v drawn from the same point with their sum u + v shown as the diagonal.
-    </shortdescription>
-  </image>
-  </figure>
-  </li>
-<li>    
-        <p>
-          Sketch the vector <m>3\mathbf{a}-\mathbf{b}</m> that results from the two
-          vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m> shown.
-        </p>
-                <figure xml:id="Practice5">
-  <image source="images/ch01/Practice5.png" width="40%">
-    <shortdescription>
-A vector diagram showing u - v constructed by adding u to the opposite of v.
-    </shortdescription>
-  </image>
-  </figure>
-  </li>
-<li>   
-        <p>
-          Sketch a graph of two equivalent vectors.
-        </p>
-  </li>
-<li>
-        <p>
-          Sketch a graph of two non-equivalent vectors.
-        </p>
-  </li>
-<li>
-        <p>
-          If <m>\mathbf{u}=(3,1)</m> and <m>\mathbf{v}=(-1,2)</m>, find and sketch the
-          resulting vector:
-        </p>
-        <m>
-          \mathbf{u}+2\mathbf{v}-2\mathbf{u}+\mathbf{v}-\mathbf{u}-2\mathbf{u}+\mathbf{v}+2\mathbf{v}
-        </m>
-  </li>
- </ol>
-</handout>
+
+<worksheet xml:id="vector-practice">
+  <title>Practice Problems</title>
+
+  <exercise xml:id="vector-practice-1">
+    <statement>
+      <p>
+        Draw a vector with initial point <m>A(5,6)</m> and terminal point <m>B(-2,-3)</m>.
+      </p>
+
+      <figure xml:id="TwoDCoordinateGrid-2">
+        <image source="images/ch01/TwoDCoordinateGrid-2.png" width="30%">
+          <shortdescription>
+            A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
+          </shortdescription>
+        </image>
+      </figure>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-practice-2">
+    <statement>
+      <p>
+        Draw a vector <m>\overrightarrow{CD}</m> that is equivalent to the vector
+        <m>\overrightarrow{AB}</m> you drew in Exercise 1.
+      </p>
+
+      <figure xml:id="TwoDCoordinateGrid-3">
+        <image source="images/ch01/TwoDCoordinateGrid-3.png" width="30%">
+          <shortdescription>
+            A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
+          </shortdescription>
+        </image>
+      </figure>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-practice-3">
+    <statement>
+      <p>
+        On the graph below, sketch the vector <m>-2\mathbf{v}</m> for the given vector <m>\mathbf{v}</m>.
+      </p>
+
+      <figure xml:id="Practice3">
+        <image source="images/ch01/Practice3.png" width="40%">
+          <shortdescription>
+            A vector drawn on a coordinate grid from the point (-1, -2) to the point (-3, 2).
+          </shortdescription>
+        </image>
+      </figure>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-practice-4">
+    <statement>
+      <p>
+        On the graph below, sketch the vector <m>\mathbf{a}+\mathbf{b}</m> that results
+        from the two vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m> shown using the parallelogram method.
+      </p>
+
+      <figure xml:id="Practice4">
+        <image source="images/ch01/Practice4.png" width="40%">
+          <shortdescription>
+            A diagram showing vectors u and v drawn from the same point with their sum u + v shown as the diagonal.
+          </shortdescription>
+        </image>
+      </figure>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-practice-5">
+    <statement>
+      <p>
+        Sketch the vector <m>3\mathbf{a}-\mathbf{b}</m> that results from the two vectors
+        <m>\mathbf{a}</m> and <m>\mathbf{b}</m> shown.
+      </p>
+
+      <figure xml:id="Practice5">
+        <image source="images/ch01/Practice5.png" width="30%">
+          <shortdescription>
+            A vector diagram showing u - v constructed by adding u to the opposite of v.
+          </shortdescription>
+        </image>
+      </figure>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-practice-6">
+    <statement>
+      <p>
+        Sketch a graph of two equivalent vectors.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-practice-7">
+    <statement>
+      <p>
+        Sketch a graph of two non-equivalent vectors.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="vector-practice-8">
+    <statement>
+      <p>
+        If <m>\mathbf{u}=(3,1)</m> and <m>\mathbf{v}=(-1,2)</m>, find and sketch the resulting vector:
+      </p>
+
+      <me>
+        \mathbf{u}+2\mathbf{v}-2\mathbf{u}+\mathbf{v}-\mathbf{u}-2\mathbf{u}+\mathbf{v}+2\mathbf{v}
+      </me>
+    </statement>
+  </exercise>
+
+</worksheet>
     </section>
