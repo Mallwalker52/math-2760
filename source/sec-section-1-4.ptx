@@ -13,7 +13,20 @@
 
       <subsection xml:id="sec-04-01-3d-system">
         <title>The Three-Dimensional Coordinate System</title>
-        <p>[Placeholder]</p>
+        <p>In the Three-Dimensional Coordinate System, instead of quadrants,
+        we now have octants, designated by cubes in the figure below.</p>
+<figure xml:id="octants">
+<title>Vectors with initial and terminal points</title>
+  <image source="images/ch01/Octants.png">
+    <shortdescription>
+Diagrams showing the eight octants in three-dimensional space labeled
+Octants I through VIII relative to the coordinate axes.
+    </shortdescription>
+  </image>
+  <caption>
+    Octants in the Three-Dimensional Coordinate System
+  </caption>
+</figure>
       </subsection>
       <subsection xml:id="sec-04-02-octants-applet">
         <title>Exploring Octants Using a 3D Visualization Applet</title>

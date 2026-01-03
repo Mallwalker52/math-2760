@@ -12,20 +12,327 @@
   </ul>
 </objectives>
       
-      <subsection xml:id="sec-05-01-calc-dot">
-        <title>Calculate a Dot Product</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-05-02-dot-2d">
-        <title>Calculating Dot Product in Two Dimensions</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-05-03-properties">
-        <title>Use Properties of the Dot Product</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-05-04-practice">
-        <title>Section 05 Practice Problems</title>
-        <p>[Placeholder]</p>
-      </subsection>
+<subsection xml:id="subsec-calculate-dot-product">
+  <title>Calculate a Dot Product</title>
+
+  <p>
+    The dot product of two vectors is computed by multiplying corresponding
+    components and adding the results.
+  </p>
+
+  <definition xml:id="def-dot-product">
+    <title>Dot Product</title>
+
+    <p>
+      In two dimensions, let
+      <m>\mathbf{u}=\langle u_1,\,u_2\rangle</m> and
+      <m>\mathbf{v}=\langle v_1,\,v_2\rangle</m>.
+      The dot product of <m>\mathbf{u}</m> and <m>\mathbf{v}</m> is
+    </p>
+
+    <me>
+      \mathbf{u}\cdot\mathbf{v}
+      =
+      u_1v_1+u_2v_2.
+    </me>
+
+    <p>
+      In three dimensions, let
+      <m>\mathbf{u}=\langle u_1,\,u_2,\,u_3\rangle</m> and
+      <m>\mathbf{v}=\langle v_1,\,v_2,\,v_3\rangle</m>.
+      The dot product of <m>\mathbf{u}</m> and <m>\mathbf{v}</m> is
+    </p>
+
+    <me>
+      \mathbf{u}\cdot\mathbf{v}
+      =
+      u_1v_1+u_2v_2+u_3v_3.
+    </me>
+  </definition>
+
+  <p><xref ref="dot-product-figure"/> below shows how the dot product can also be understood component-by-component,
+  by pairing horizontal and vertical contributions separately before adding them together.</p>
+
+  <figure xml:id="dot-product-figure">
+<title>Dot Product, Piece by Piece</title>
+  <image source="images/ch01/DotProduct.png">
+<shortdescription>
+A visual breakdown showing how horizontal and vertical vector components pair and add to form the
+dot product.
+</shortdescription>
+  </image>
+<caption>
+Diagram illustrating the dot product by adding the products of corresponding vector components.
+</caption>
+</figure>
+</subsection>
+
+<subsection xml:id="subsec-dot-product-properties">
+  <title>Use Properties of the Dot Product</title>
+
+  <p>
+    To simplify and manipulate dot products algebraically, we rely on a small
+    collection of fundamental properties that govern how the dot product
+    behaves.
+  </p>
+
+<theorem xml:id="thm-dot-product-properties">
+  <title>Properties of the Dot Product</title>
+
+  <statement>
+    <p>
+      Let <m>\mathbf{u}</m>, <m>\mathbf{v}</m>, and <m>\mathbf{w}</m> be vectors, and
+      let <m>k</m> be a scalar. Then:
+    </p>
+
+    <ol>
+      <li>
+        <p>
+          <emph>Commutative.</emph>
+          The order of vectors in a dot product does not change the result.
+        </p>
+        <me>
+          \mathbf{u}\cdot\mathbf{v}=\mathbf{v}\cdot\mathbf{u}
+        </me>
+      </li>
+
+      <li>
+        <p>
+          <emph>Distributive.</emph>
+          The dot product distributes over vector addition.
+        </p>
+        <me>
+          \mathbf{u}\cdot\lbrack \mathbf{v}+\mathbf{w}\rbrack
+          =
+          \mathbf{u}\cdot\mathbf{v}
+          +
+          \mathbf{u}\cdot\mathbf{w}
+        </me>
+      </li>
+
+      <li>
+        <p>
+          <emph>Associative (Scalar).</emph>
+          Scalars may be factored in or out of a dot product.
+        </p>
+        <me>
+          k\lbrack \mathbf{u}\cdot\mathbf{v}\rbrack
+          =
+          \lbrack k\mathbf{u}\rbrack \cdot \mathbf{v}
+          =
+          \mathbf{u}\cdot \lbrack k\mathbf{v}\rbrack
+        </me>
+      </li>
+
+      <li>
+        <p>
+          <emph>Magnitude.</emph>
+          The dot product of a vector with itself equals the square of its magnitude.
+        </p>
+        <me>
+          \mathbf{v}\cdot\mathbf{v}=|\mathbf{v}|^2
+        </me>
+      </li>
+    </ol>
+  </statement>
+</theorem>
+
+
+  <example xml:id="ex-using-dot-product-properties">
+    <p>
+      Simplify the expression
+      <m>
+        (2\mathbf{u} - \mathbf{v}) \cdot (\mathbf{u} + \mathbf{v})
+      </m>.
+    </p>
+
+    <p>
+      Apply the distributive and scalar properties of the dot product.
+    </p>
+
+    <me>
+      (2\mathbf{u} - \mathbf{v}) \cdot (\mathbf{u} + \mathbf{v})
+      =
+      2\mathbf{u} \cdot \mathbf{u}
+      +
+      2\mathbf{u} \cdot \mathbf{v}
+      -
+      \mathbf{v} \cdot \mathbf{u}
+      -
+      \mathbf{v} \cdot \mathbf{v}.
+    </me>
+  </example>
+
+  <worksheet xml:id="dot-product-properties-examples">
+  <title>In-Class Examples</title>
+
+  <exercise xml:id="dot-product-properties-ex-1">
+    <statement>
+      <p>
+        Let <m>\mathbf{u}=\langle -3,\,2\rangle</m> and
+        <m>\mathbf{v}=\langle 9,\,-1\rangle</m>.
+        Before computing, predict whether
+        <m>\mathbf{u}\cdot\mathbf{v}</m> should be positive, negative, or zero.
+        Then compute <m>\mathbf{u}\cdot\mathbf{v}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="dot-product-properties-ex-2">
+    <statement>
+      <p>
+        Let <m>\mathbf{u}=\langle -2,\,4,\,-1\rangle</m>,
+        <m>\mathbf{v}=\langle 5,\,-3,\,-2\rangle</m>, and
+        <m>\mathbf{w}=\langle 0,\,-1,\,-6\rangle</m>.
+        Compute
+        <m>(\mathbf{u}\cdot\mathbf{w})\mathbf{v}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="dot-product-properties-ex-3">
+    <statement>
+      <p>
+        Suppose <m>\mathbf{v}\cdot\mathbf{v}=8</m>.
+        Find <m>|\mathbf{v}|</m>.
+        What does <m>\mathbf{v}\cdot\mathbf{v}</m> represent geometrically?
+      </p>
+    </statement>
+  </exercise>
+
+  <exercise xml:id="dot-product-properties-ex-4">
+    <statement>
+      <p>
+        Suppose <m>\mathbf{u}\cdot\mathbf{v}=9</m>.
+        Find
+        <m>\dfrac{4}{\lbrack \mathbf{v}\cdot\mathbf{u} \rbrack^2}</m>.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
+
+</subsection>
+<subsection xml:id="subsec-dot-product-exercises">
+  <title>Exercises on the Dot Product</title>
+
+  <worksheet xml:id="dot-product-practice">
+    <title>Practice Problems</title>
+
+    <exercise xml:id="dot-product-practice-1">
+      <statement>
+        <p>
+          Determine whether each statement is <em>true</em> or <em>false</em>.
+          Justify your answer or provide a counterexample.
+        </p>
+
+        <ol marker="A.">
+          <li>
+            <p>
+              <m>\mathbf{u}\cdot\mathbf{v}-\mathbf{v}\cdot\mathbf{u}=0</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              For any scalar <m>c</m>,
+              <m>|c\mathbf{v}|=c|\mathbf{v}|</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              If
+              <m>
+                |\mathbf{u}|^2+|\mathbf{v}|^2
+                =
+                |\mathbf{u}+\mathbf{v}|^2
+              </m>,
+              then <m>\mathbf{u}\cdot\mathbf{v}=0</m>.
+            </p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="dot-product-practice-2">
+      <statement>
+        <p>
+          Let
+          <m>\mathbf{u}=\langle -1,\,4,\,6\rangle</m>,
+          <m>\mathbf{v}=\langle 2,\,8,\,5\rangle</m>, and
+          <m>\mathbf{w}=\langle 0,\,-1,\,-2\rangle</m>.
+          Find each of the following.
+        </p>
+
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>\mathbf{u}\cdot(\mathbf{v}+\mathbf{w})</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>|\mathbf{v}|^2</m>
+            </p>
+          </li>
+          <li>
+            <p>
+              <m>-2(\mathbf{u}\cdot\mathbf{w})</m>
+            </p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="dot-product-practice-3">
+      <statement>
+        <p>
+          Let
+          <m>\mathbf{u}=\langle 1,\,3,\,-5\rangle</m> and
+          <m>\mathbf{v}=\langle -4,\,0,\,3\rangle</m>.
+          Compute <m>\mathbf{u}\cdot\mathbf{v}</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="dot-product-practice-4">
+      <statement>
+        <p>
+          Answer each question briefly. Justifications should focus on
+          interpretation and meaning, not computation.
+        </p>
+
+        <ol marker="a.">
+          <li>
+            <p>
+              What kind of quantity is the dot product: a vector or a scalar?
+            </p>
+          </li>
+          <li>
+            <p>
+              Can the dot product of two nonzero vectors be zero?
+              What would this indicate geometrically?
+            </p>
+          </li>
+          <li>
+            <p>
+              Can the dot product of two vectors be negative?
+              What might that suggest about their relative directions?
+            </p>
+          </li>
+          <li>
+            <p>
+              Without computing, determine whether the dot product of
+              <m>\langle 1,\,2,\,-3\rangle</m> and
+              <m>\langle 4,\,-1,\,6\rangle</m>
+              should be positive, negative, or zero.
+              Explain.
+            </p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+  </worksheet>
+</subsection>
+
     </section>
