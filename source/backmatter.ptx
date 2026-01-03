@@ -16,8 +16,22 @@
 
   <!-- <index> <title>Index</title> <index-list/> </index> -->
 
+<references xml:id="back-references">
+    <title>Reference Material</title>
+
+    <appendix xml:id="back-list-of-figures">
+      <title>List of Figures</title>
+      <list-of elements="figure" divisions="chapter" />
+    </appendix>
+
+    <appendix xml:id="app-list-of-definitions">
+      <title>List of Definitions</title>
+      <list-of elements="definition" divisions="chapter" />
+    </appendix>
+    
+  </references>
+
   <colophon>
-    <p> This book was authored in <pretext />. </p>
+    <p>This book was authored in <pretext />.</p>
   </colophon>
 </backmatter>
-

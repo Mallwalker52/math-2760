@@ -42,6 +42,7 @@
   </p>
 
 <figure xml:id="figure1">
+<title>Vectors with initial and terminal points</title>
   <image source="images/ch01/Figure1.png">
     <shortdescription>
       Examples of vectors shown with their initial and terminal points.
@@ -169,6 +170,7 @@ In <xref ref="figure2"/> below, notice the following:
 </ul>
 
 <figure xml:id="figure2">
+<title>Scalar multiples of a vector</title>
   <image source="images/ch01/Figure2.png">
     <shortdescription>
       Five arrows show a vector and its scalar multiples, with different lengths in the same direction and in the opposite direction.
@@ -187,6 +189,7 @@ The particle then changes direction and moves from <m>B</m> to <m>C</m>, with di
 <m>\overrightarrow{BC}</m>, as shown in <xref ref="figure3"/> below.
 </p>
 <figure xml:id="figure3">
+<title>Vector addition using directed segments</title>
   <image source="images/ch01/Figure3.png" width="40%">
     <shortdescription>
 A diagram showing vectors from point A to point B and from point A to point C, with an additional vector from point C to point B.
@@ -225,6 +228,7 @@ and we define the sum of <m>\mathbf{u}</m> and <m>\mathbf{v}</m> as follows.
   </statement>
 </definition>
 <figure xml:id="figure4">
+<title>Vector addition using the tip-to-tail method</title>
   <image source="images/ch01/Figure4.png" width="40%">
     <shortdescription>
     A vector diagram showing two vectors placed tip to tail and their resulting sum.
@@ -245,6 +249,7 @@ Completing the parallelogram, we see that
 \mathbf{u}+\mathbf{v}=\mathbf{v}+\mathbf{u}.
 </me>
 <figure xml:id="figure5">
+<title>Vector addition using the parallelogram method</title>
   <image source="images/ch01/Figure5.png"  width="40%">
     <shortdescription>
 A parallelogram diagram showing two vectors from a common starting point and their combined result.
@@ -345,13 +350,11 @@ Vector Addition Commutativity Applet (external link)
         Are the two vectors equivalent? Why or why not?
       </p>
 
-      <figure xml:id="TwoDCoordinateGrid">
         <image source="images/ch01/TwoDCoordinateGrid.png" width="40%">
-          <shortdescription>
+          <description>
             A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
-          </shortdescription>
+          </description>
         </image>
-      </figure>
     </statement>
   </exercise>
 
@@ -368,13 +371,11 @@ Vector Addition Commutativity Applet (external link)
             Draw a sketch of the vector <m>\mathbf{u}</m>.
           </p>
 
-          <figure xml:id="TwoDCoordinateGrid-1">
             <image source="images/ch01/TwoDCoordinateGrid-1.png" width="40%">
-              <shortdescription>
+              <description>
                 A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
-              </shortdescription>
+              </description>
             </image>
-          </figure>
         </li>
 
         <li>
@@ -444,13 +445,11 @@ Vector Addition Commutativity Applet (external link)
         Draw a vector with initial point <m>A(5,6)</m> and terminal point <m>B(-2,-3)</m>.
       </p>
 
-      <figure xml:id="TwoDCoordinateGrid-2">
         <image source="images/ch01/TwoDCoordinateGrid-2.png" width="30%">
-          <shortdescription>
+          <description>
             A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
-          </shortdescription>
+          </description>
         </image>
-      </figure>
     </statement>
   </exercise>
 
@@ -460,14 +459,11 @@ Vector Addition Commutativity Applet (external link)
         Draw a vector <m>\overrightarrow{CD}</m> that is equivalent to the vector
         <m>\overrightarrow{AB}</m> you drew in Exercise 1.
       </p>
-
-      <figure xml:id="TwoDCoordinateGrid-3">
         <image source="images/ch01/TwoDCoordinateGrid-3.png" width="30%">
-          <shortdescription>
+          <description>
             A blank two-dimensional coordinate grid with horizontal and vertical axes and evenly spaced grid lines.
-          </shortdescription>
+          </description>
         </image>
-      </figure>
     </statement>
   </exercise>
 
@@ -477,13 +473,11 @@ Vector Addition Commutativity Applet (external link)
         On the graph below, sketch the vector <m>-2\mathbf{v}</m> for the given vector <m>\mathbf{v}</m>.
       </p>
 
-      <figure xml:id="Practice3">
         <image source="images/ch01/Practice3.png" width="40%">
-          <shortdescription>
+          <description>
             A vector drawn on a coordinate grid from the point (-1, -2) to the point (-3, 2).
-          </shortdescription>
+          </description>
         </image>
-      </figure>
     </statement>
   </exercise>
 
@@ -494,13 +488,11 @@ Vector Addition Commutativity Applet (external link)
         from the two vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m> shown using the parallelogram method.
       </p>
 
-      <figure xml:id="Practice4">
         <image source="images/ch01/Practice4.png" width="40%">
-          <shortdescription>
+          <description>
             A diagram showing vectors u and v drawn from the same point with their sum u + v shown as the diagonal.
-          </shortdescription>
+          </description>
         </image>
-      </figure>
     </statement>
   </exercise>
 
@@ -511,13 +503,11 @@ Vector Addition Commutativity Applet (external link)
         <m>\mathbf{a}</m> and <m>\mathbf{b}</m> shown.
       </p>
 
-      <figure xml:id="Practice5">
         <image source="images/ch01/Practice5.png" width="30%">
-          <shortdescription>
+          <description>
             A vector diagram showing u - v constructed by adding u to the opposite of v.
-          </shortdescription>
+          </description>
         </image>
-      </figure>
     </statement>
   </exercise>
 

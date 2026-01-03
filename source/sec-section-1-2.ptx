@@ -175,13 +175,11 @@
         <m>x</m>-component of the vector should be positive, negative, or zero.
       </p>
 
-      <figure xml:id="Example1">
         <image source="images/ch02/Example1.png">
-          <shortdescription>
+          <description>
             A polar coordinate grid with degree markings shown alongside a Cartesian coordinate grid with horizontal and vertical axes.
-          </shortdescription>
+          </description>
         </image>
-      </figure>
     </statement>
   </exercise>
 

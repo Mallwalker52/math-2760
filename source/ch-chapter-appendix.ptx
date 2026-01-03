@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<chapter xml:id="ch-chapter-appendix" xmlns:xi="http://www.w3.org/2001/XInclude">
+<appendix xml:id="ch-chapter-appendix" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Appendix</title>
 
 <introduction>
@@ -18,19 +18,28 @@
     These materials are intended as a refresher rather than a full development.
   </p>
 
-  <p>
-    The appendix concludes with a listing of figures used throughout the text.
-    This allows readers to quickly locate visual references and reinforces the role of geometric
-    interpretation in understanding multivariable calculus. You may return to this appendix as
-    needed while studying the main chapters.
+  <p>You may return to this appendix as needed while studying the main chapters.
   </p>
 </introduction>
 
+  <section xml:id="app-integration-reference">
+    <title>Integration Reference</title>
+    <p>
+  This section provides tables of integrals and related reference formulas commonly used in multivariable calculus.
+  These tables are included for quick consultation during computations and examples and are not intended to replace
+  conceptual understanding or derivations.
+</p>
+    <p>[Placeholder: integration reference tables / techniques.]</p>
+  </section>
 
+  <section xml:id="app-matrix-tools">
+    <title>Matrix Tools for Multivariable Calculus</title>
+    <p>
+  This section reviews selected topics from linear algebra that arise naturally in multivariable calculus,
+  including matrices, determinants, and related ideas. The material is presented as a brief refresher to
+  support recall and application, rather than a full development of the subject.
+</p>
+    <p>[Placeholder: Jacobian/Hessian, RREF, determinants, eigenvalues, etc.]</p>
+  </section>
 
-  <!-- include sections -->
-  <xi:include href="sec-section-A-1.ptx" />
-  <xi:include href="sec-section-A-2.ptx" />
-  <xi:include href="sec-section-A-3.ptx" />
-
-</chapter>
+</appendix>
