@@ -37,7 +37,7 @@ Octants I through VIII relative to the coordinate axes.
 <figure xml:id="coordinate-systems">
   <title>Right-Handed and Left-Handed Coordinate Systems</title>
 
-  <image source="CoordinateSystems.png">
+  <image source="images/ch01/CoordinateSystems.png">
     <shortdescription>
       Diagrams showing how the x, y, and z axes are oriented in right-handed
       and left-handed coordinate systems.
@@ -49,77 +49,47 @@ Octants I through VIII relative to the coordinate axes.
     three-dimensional coordinate systems.
   </caption>
 </figure>
+<definition xml:id="def-right-handed-system">
+  <title>Right-Handed Coordinate System</title>
 
-<table xml:id="tab-handed-coordinate-systems">
-  <title>Right-Handed and Left-Handed Coordinate Systems</title>
+  <p>
+    A <em>right-handed coordinate system</em> is the standard coordinate
+    system used in calculus, physics, engineering, and most mathematics
+    textbooks.
+  </p>
 
-  <tabular>
-    <row header="yes">
-      <cell>Right-Handed System</cell>
-      <cell>Left-Handed System</cell>
-    </row>
+  <p>
+    In a right-handed system, the thumb, index finger, and middle finger of
+    the right hand represent the positive <m>x</m>, <m>y</m>, and <m>z</m>
+    directions, respectively.
+  </p>
 
-    <row>
-      <cell>
-        <p>
-          This is the system used in calculus, physics, engineering, and most
-          textbooks.
-        </p>
+  <p>
+    Curling the fingers of the right hand from the <m>x</m>-axis toward the
+    <m>y</m>-axis causes the thumb to point along the positive <m>z</m>-direction.
+  </p>
+</definition>
+<definition xml:id="def-left-handed-system">
+  <title>Left-Handed Coordinate System</title>
 
-        <p>
-          In the diagram:
-        </p>
+  <p>
+    A <em>left-handed coordinate system</em> is less common, but it is used in
+    some computer graphics and animation applications.
+  </p>
 
-        <p>
-          Thumb → positive <m>x</m><br/>
-          Index finger → positive <m>y</m><br/>
-          Middle finger → positive <m>z</m>
-        </p>
+  <p>
+    In a left-handed system, the thumb, index finger, and middle finger of
+    the left hand correspond to the positive <m>x</m>, <m>y</m>, and
+    <m>z</m> directions, respectively.
+  </p>
 
-        <p>
-          These three fingers form an L-shape with the middle finger pointing
-          upward. This depiction is correct.
-        </p>
-
-        <p>
-          <em>Key property:</em> Curling the fingers of your right hand from the
-          <m>x</m>-axis toward the <m>y</m>-axis causes your thumb to point along
-          the positive <m>z</m>-direction.
-        </p>
-      </cell>
-
-      <cell>
-        <p>
-          This system is less common, but it is used in some computer graphics
-          and animation settings.
-        </p>
-
-        <p>
-          In the diagram:
-        </p>
-
-        <p>
-          Thumb → positive <m>x</m><br/>
-          Index finger → positive <m>y</m><br/>
-          Middle finger (or palm direction) → positive <m>z</m>, but downward
-          instead of upward
-        </p>
-
-        <p>
-          This depiction matches the definition of a left-handed coordinate
-          system.
-        </p>
-
-        <p>
-          <em>Key property:</em> Curling the fingers of your left hand from
-          <m>x</m> toward <m>y</m> causes your thumb to point along the
-          negative <m>z</m>-direction, meaning positive <m>z</m> points the
-          opposite way compared to the right-handed case.
-        </p>
-      </cell>
-    </row>
-  </tabular>
-</table>
+  <p>
+    Curling the fingers of the left hand from the <m>x</m>-axis toward the
+    <m>y</m>-axis causes the thumb to point along the negative <m>z</m>-direction,
+    meaning the positive <m>z</m>-direction is reversed compared to the
+    right-handed system.
+  </p>
+</definition>
       </subsection>
 
 <subsection xml:id="sec-01-07-3d-coordinate-applet">
@@ -187,7 +157,7 @@ Octants I through VIII relative to the coordinate axes.
   <note knowl="no">
     <title>3D Coordinate Applet (Optional Exploration)</title>
 <p> To explore points in three-dimensional space interactively, open the
-  <url href="davidmathlogic.com//amit/pointplotwithinput.html"> 
+  <url href="https://davidmathlogic.com//amit/pointplotwithinput.html"> 
     3D Coordinate Applet (external link) </url>. </p>
     <ul>
       <li>
