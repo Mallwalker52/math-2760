@@ -182,19 +182,187 @@ Octants I through VIII relative to the coordinate axes.
       feels unfamiliar.
     </p>
   </note>
+  <worksheet xml:id="ex-plot-points-3d">
+  <title>In Class Examples</title>
+
+<exercise xml:id="ex-plot-points-3d-ex-1">
+    <statement>
+        <p>
+    Plot the point <m>(-1,0,2)</m> in three-dimensional space.
+  </p>
+<image source="images/ch01/ThreeDCoordinateGrid.png">
+          <description>
+          A three-dimensional coordinate system is shown with horizontal, vertical, and depth axes labeled x, y, and z.
+          A straight line passes through the origin and extends diagonally across the coordinate space.  
+          </description>
+        </image>
+    </statement>
+  </exercise>
+<exercise xml:id="ex-plot-points-3d-ex-2">
+    <statement>
+        <p>
+    Plot the point <m>(1,2,4)</m> in three-dimensional space.
+  </p>
+<image source="images/ch01/ThreeDCoordinateGrid.png">
+          <description>
+          A three-dimensional coordinate system is shown with horizontal, vertical, and depth axes labeled x, y, and z.
+          A straight line passes through the origin and extends diagonally across the coordinate space.  
+          </description>
+        </image>
+    </statement>
+  </exercise>
+</worksheet>
 </subsection>
 
       <subsection xml:id="sec-04-05-distance-two-points">
         <title>Find the Distance Between Two Points in Space</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-04-06-distance-formula">
-        <title>Distance Between Two Points in Space</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-04-07-practice">
-        <title>Section 04 Practice Problems</title>
-        <p>[Placeholder]</p>
-      </subsection>
+      <p>
+We often need a formula for measuring the distance between two points in
+three-dimensional space.
+</p>
+
+<definition xml:id="def-distance-between-two-points-3d">
+  <title>Distance Between Two Points in Space</title>
+
+  <p>
+    For two points <m>P_1 (x_1, y_1, z_1)</m> and <m>P_2 (x_2, y_2, z_2)</m>,
+    the distance between them is given by
+  </p>
+
+  <me>
+    d = \sqrt{ ( x_2 - x_1 )^2 + ( y_2 - y_1 )^2 + ( z_2 - z_1 )^2 }.
+  </me>
+
+  <p>
+    This formula can be used to describe spheres in three-dimensional space.
+    A sphere of radius <m>r</m> centered at <m>(a,b,c)</m> has equation
+  </p>
+
+  <me>
+    r^2 = ( x - a )^2 + ( y - b )^2 + ( z - c )^2.
+  </me>
+
+  <p>
+    In particular, the equation
+  </p>
+
+  <me>
+    r^2 = x^2 + y^2 + z^2
+  </me>
+
+  <p>
+    represents a sphere of radius <m>r</m> centered at the origin.
+  </p>
+</definition>
+<worksheet xml:id="ws-distance-between-points-3d">
+  <title>In Class Example</title>
+
+  <exercise xml:id="ex-distance-between-points-3d">
+    <statement>
+      <p>
+        Find the distance between the points
+        <m>P_1 = (-2, 1, 5)</m> and <m>P_2 = (3, -1, 2)</m>.
+      </p>
+
+      <p>
+        Use the distance formula for points in three-dimensional space.
+      </p>
+    </statement>
+  </exercise>
+
+</worksheet>
+
+       </subsection>
+
+<subsection xml:id="sec-01-xx-3d-coordinates-practice">
+  <title>Exercises on Points in Three-Dimensional Space</title>
+
+  <worksheet xml:id="points-3d-practice">
+    <title>Practice Problems</title>
+
+    <exercise xml:id="points-3d-practice-1">
+      <statement>
+        <p>
+          Plot the following point in three-dimensional space.
+        </p>
+
+        <ol marker="a.">
+          <li>
+            <p>
+              <m>(-2,-3,-2)</m>
+            </p>
+          </li>
+        </ol>
+
+<image source="images/ch01/ThreeDCoordinateGrid.png">
+          <description>
+          A three-dimensional coordinate system is shown with horizontal, vertical, and depth axes labeled x, y, and z.
+          A straight line passes through the origin and extends diagonally across the coordinate space.  
+          </description>
+        </image>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="points-3d-practice-2">
+      <statement>
+        <p>
+          Find the distance <m>r</m> between the origin and the point
+          <m>P=(8,0,-6)</m>.
+        </p>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="points-3d-practice-3">
+      <statement>
+        <p>
+          Without plotting, identify the octant or coordinate plane for each point.
+        </p>
+
+        <ol marker="a.">
+          <li><p><m>(3,-2,5)</m></p></li>
+          <li><p><m>(0,-4,1)</m></p></li>
+          <li><p><m>(-1,-2,-3)</m></p></li>
+        </ol>
+      </statement>
+    </exercise>
+
+    <exercise xml:id="points-3d-practice-4">
+      <statement>
+        <p>
+          True or False. Justify each answer.
+        </p>
+
+        <ol marker="a.">
+          <li>
+            <p>
+              Any point with a zero coordinate lies in exactly one octant.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              The point <m>(-2,5,0)</m> lies on the <m>xy</m>-plane.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              Points in Octant III must have all coordinates negative.
+            </p>
+          </li>
+
+          <li>
+            <p>
+              The distance between two points in space can never be less than
+              the distance between their projections in the <m>xy</m>-plane.
+            </p>
+          </li>
+        </ol>
+      </statement>
+    </exercise>
+
+  </worksheet>
+</subsection>
+
     </section>
 
