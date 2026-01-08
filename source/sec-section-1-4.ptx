@@ -14,7 +14,7 @@
       <subsection xml:id="sec-04-01-3d-system">
         <title>The Three-Dimensional Coordinate System</title>
         <p>In the Three-Dimensional Coordinate System, instead of quadrants,
-        we now have octants, designated by cubes in the figure below.</p>
+        we now have octants, designated by cubes in <xref ref="octants"/> below.</p>
 <figure xml:id="octants">
 <title>Vectors with initial and terminal points</title>
   <image source="images/ch01/Octants.png">
@@ -27,19 +27,193 @@ Octants I through VIII relative to the coordinate axes.
     Octants in the Three-Dimensional Coordinate System
   </caption>
 </figure>
+
+<p>
+  The orientation of the coordinate axes in three-dimensional space depends
+  on whether a right-handed or left-handed system is used. <xref ref="coordinate-systems"/> below
+  illustrates how the positive <m>x</m>, <m>y</m>, and <m>z</m> directions are
+  determined in each case.
+</p>
+<figure xml:id="coordinate-systems">
+  <title>Right-Handed and Left-Handed Coordinate Systems</title>
+
+  <image source="CoordinateSystems.png">
+    <shortdescription>
+      Diagrams showing how the x, y, and z axes are oriented in right-handed
+      and left-handed coordinate systems.
+    </shortdescription>
+  </image>
+
+  <caption>
+    Orientation of the coordinate axes in right-handed and left-handed
+    three-dimensional coordinate systems.
+  </caption>
+</figure>
+
+<table xml:id="tab-handed-coordinate-systems">
+  <title>Right-Handed and Left-Handed Coordinate Systems</title>
+
+  <tabular>
+    <row header="yes">
+      <cell>Right-Handed System</cell>
+      <cell>Left-Handed System</cell>
+    </row>
+
+    <row>
+      <cell>
+        <p>
+          This is the system used in calculus, physics, engineering, and most
+          textbooks.
+        </p>
+
+        <p>
+          In the diagram:
+        </p>
+
+        <p>
+          Thumb → positive <m>x</m><br/>
+          Index finger → positive <m>y</m><br/>
+          Middle finger → positive <m>z</m>
+        </p>
+
+        <p>
+          These three fingers form an L-shape with the middle finger pointing
+          upward. This depiction is correct.
+        </p>
+
+        <p>
+          <em>Key property:</em> Curling the fingers of your right hand from the
+          <m>x</m>-axis toward the <m>y</m>-axis causes your thumb to point along
+          the positive <m>z</m>-direction.
+        </p>
+      </cell>
+
+      <cell>
+        <p>
+          This system is less common, but it is used in some computer graphics
+          and animation settings.
+        </p>
+
+        <p>
+          In the diagram:
+        </p>
+
+        <p>
+          Thumb → positive <m>x</m><br/>
+          Index finger → positive <m>y</m><br/>
+          Middle finger (or palm direction) → positive <m>z</m>, but downward
+          instead of upward
+        </p>
+
+        <p>
+          This depiction matches the definition of a left-handed coordinate
+          system.
+        </p>
+
+        <p>
+          <em>Key property:</em> Curling the fingers of your left hand from
+          <m>x</m> toward <m>y</m> causes your thumb to point along the
+          negative <m>z</m>-direction, meaning positive <m>z</m> points the
+          opposite way compared to the right-handed case.
+        </p>
+      </cell>
+    </row>
+  </tabular>
+</table>
       </subsection>
-      <subsection xml:id="sec-04-02-octants-applet">
-        <title>Exploring Octants Using a 3D Visualization Applet</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-04-03-sketch-point">
-        <title>Sketch a Point in Three-Dimensional Space; Example of Using a 3D Coordinate Applet</title>
-        <p>[Placeholder]</p>
-      </subsection>
-      <subsection xml:id="sec-04-04-applet-optional">
-        <title>3D Coordinate Applet (Optional Exploration)</title>
-        <p>[Placeholder]</p>
-      </subsection>
+
+<subsection xml:id="sec-01-07-3d-coordinate-applet">
+  <title>Using a 3D Coordinate Applet</title>
+
+  <handout>
+    <title>Concept Check</title>
+
+    <checkpoint knowl="no">
+      <statement>
+
+        <p>
+          We will use an interactive applet to visualize points in
+          three-dimensional space.
+        </p>
+
+        <ul>
+          <li>
+            <p>
+              Plot the point <m>(1, 2, 4)</m>.
+            </p>
+            <ul>
+              <li>
+                <p>
+                  Identify which octant the point lies in.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Describe how each coordinate affects the point’s position.
+                </p>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <p>
+              Now plot the point <m>(-1, 0, 2)</m>.
+            </p>
+            <ul>
+              <li>
+                <p>
+                  Which coordinate causes the point to lie on a coordinate
+                  plane?
+                </p>
+              </li>
+              <li>
+                <p>
+                  Which plane is the point on?
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <p>
+          Rotate the view and observe how the same point appears from
+          different perspectives.
+        </p>
+
+      </statement>
+    </checkpoint>
+  </handout>
+
+  <note knowl="no">
+    <title>3D Coordinate Applet (Optional Exploration)</title>
+<p> To explore points in three-dimensional space interactively, open the
+  <url href="davidmathlogic.com//amit/pointplotwithinput.html"> 
+    3D Coordinate Applet (external link) </url>. </p>
+    <ul>
+      <li>
+        <p>
+          Plot points in three-dimensional space.
+        </p>
+      </li>
+      <li>
+        <p>
+          Rotate the axes to view points from different perspectives.
+        </p>
+      </li>
+      <li>
+        <p>
+          Identify octants and coordinate planes visually.
+        </p>
+      </li>
+    </ul>
+
+    <p>
+      This tool is especially helpful if three-dimensional sketching
+      feels unfamiliar.
+    </p>
+  </note>
+</subsection>
+
       <subsection xml:id="sec-04-05-distance-two-points">
         <title>Find the Distance Between Two Points in Space</title>
         <p>[Placeholder]</p>
