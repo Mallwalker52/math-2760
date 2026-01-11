@@ -34,19 +34,16 @@ Octants I through VIII relative to the coordinate axes.
   illustrates how the positive <m>x</m>, <m>y</m>, and <m>z</m> directions are
   determined in each case.
 </p>
-<figure xml:id="coordinate-systems">
-  <title>Right-Handed and Left-Handed Coordinate Systems</title>
-
-  <image source="images/ch01/CoordinateSystems.png">
+<figure xml:id="fig-handedness">
+  <image source="images/ch01/3d-coordinate-handedness.jpg">
     <shortdescription>
       Diagrams showing how the x, y, and z axes are oriented in right-handed
       and left-handed coordinate systems.
     </shortdescription>
   </image>
-
   <caption>
     Orientation of the coordinate axes in right-handed and left-handed
-    three-dimensional coordinate systems.
+    three-dimensional coordinate systems. Image by Primalshell, via Wikimedia Commons, licensed CC BY-SA 3.0.
   </caption>
 </figure>
 <definition xml:id="def-right-handed-system">
@@ -190,7 +187,7 @@ Octants I through VIII relative to the coordinate axes.
         <p>
     Plot the point <m>(-1,0,2)</m> in three-dimensional space.
   </p>
-<image source="images/ch01/ThreeDCoordinateGrid.png">
+<image source="images/ch01/ThreeDCoordinateGrid.png" width="40%">
           <description>
           A three-dimensional coordinate system is shown with horizontal, vertical, and depth axes labeled x, y, and z.
           A straight line passes through the origin and extends diagonally across the coordinate space.  
@@ -203,7 +200,7 @@ Octants I through VIII relative to the coordinate axes.
         <p>
     Plot the point <m>(1,2,4)</m> in three-dimensional space.
   </p>
-<image source="images/ch01/ThreeDCoordinateGrid.png">
+<image source="images/ch01/ThreeDCoordinateGrid.png" width="40%">
           <description>
           A three-dimensional coordinate system is shown with horizontal, vertical, and depth axes labeled x, y, and z.
           A straight line passes through the origin and extends diagonally across the coordinate space.  
@@ -294,7 +291,7 @@ three-dimensional space.
           </li>
         </ol>
 
-<image source="images/ch01/ThreeDCoordinateGrid.png">
+<image source="images/ch01/ThreeDCoordinateGrid.png" width="40%">
           <description>
           A three-dimensional coordinate system is shown with horizontal, vertical, and depth axes labeled x, y, and z.
           A straight line passes through the origin and extends diagonally across the coordinate space.  
