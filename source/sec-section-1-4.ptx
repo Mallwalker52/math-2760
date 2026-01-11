@@ -35,7 +35,7 @@ Octants I through VIII relative to the coordinate axes.
   determined in each case.
 </p>
 <figure xml:id="fig-handedness">
-  <image source="images/ch01/3d-coordinate-handedness.jpg">
+  <image source="images/ch01/Threed-coordinate-handedness.jpg">
     <shortdescription>
       Diagrams showing how the x, y, and z axes are oriented in right-handed
       and left-handed coordinate systems.
